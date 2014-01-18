@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: NSA | Isaac's Blog]]></title>
+  <link href="http://blog.isaacdontjelindell.com/blog/categories/nsa/atom.xml" rel="self"/>
+  <link href="http://blog.isaacdontjelindell.com/"/>
+  <updated>2014-01-17T20:53:21-08:00</updated>
+  <id>http://blog.isaacdontjelindell.com/</id>
+  <author>
+    <name><![CDATA[Isaac Dontje Lindell]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[That's Not How You Constitution, Mr. Obama]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2014/01/17/thats-not-how-you-constitution/"/>
+    <updated>2014-01-17T18:09:00-08:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2014/01/17/thats-not-how-you-constitution</id>
+    <content type="html"><![CDATA[<p>President Obama gave a speech today. The topic was the NSA; he was addressing the recommendations given by the panel of experts he appointed to review the actions taken by the spy agency.</p>
+
+<p>I&rsquo;m fairly disappointed in Obama&rsquo;s response. He failed to address or paid only lip service to some pretty important issues.</p>
+
+<h4>Advocate for the defense in the FISA court</h4>
+
+<p>One issue of potential constitutional significance is that cases heard in the secret FISA court are completely one sided: the judges hear only the government&rsquo;s side. The review panel recommended that an advocate be appointed to argue against the government (for the defendants who don&rsquo;t even know that they&rsquo;re being considered for surveillance).</p>
+
+<p>Obama&rsquo;s today said that he will create a &ldquo;panel of advocates&rdquo; to represent privacy concerns in significant cases.</p>
+
+<p>From The New York Times:</p>
+
+<p><blockquote><p>A senior official said the advocates would be called on only in cases presenting novel and important privacy law issues. The panel would apparently not have the authority to monitor the court’s caseload and independently decide when a case warranted its presence.</p><footer><strong>The New York Times <a href="http://www.nytimes.com/interactive/2014/01/17/us/nsa-changes-graphic.html">http://www.nytimes.com/interactive/2014/01/17/us/nsa-changes-graphic.html</a></strong></footer></blockquote></p>
+
+<p>So basically, the &ldquo;advocate panel&rdquo; doesn&rsquo;t have any power whatsoever. How can the right to counsel be respected if no one has the power to argue against the government? Who decides if a case &ldquo;[presents] novel and important privacy law issues&rdquo;? If the FISA court or the prosecution (i.e. the government/NSA) is responsible for make such a determination, that&rsquo;s hardly better than not having an advocate panel at all!</p>
+
+<h4>Secrecy of National Security Letters</h4>
+
+<p>The other disappointment for me was Obama&rsquo;s failure to implement the requirement that a judge sign off before a <a href="http://en.wikipedia.org/wiki/National_security_letter">national security letter</a> (NSL) can be served. He did change the policy on the mandatory gag orders that stop recipients of NSLs from discussing them or even mentioning that they&rsquo;d received one. The gag orders will now have a fixed expiration date. It&rsquo;s not perfect: he didn&rsquo;t say how long that fixed expiration time period will be (if it&rsquo;s longer than a few months, what&rsquo;s the point?) and the weasel words, &ldquo;in most cases,&rdquo; make me uncomfortable.</p>
+
+<p>There are a lot of other specific recommendations by the review panel that I think Obama stopped short of adequately addressing. I&rsquo;d recommending reading the <a href="http://www.nytimes.com/interactive/2014/01/17/us/nsa-changes-graphic.html">NYTimes</a> piece &ndash; it does a great job of breaking down his response to each of the recommendations.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Here's Your Morning Dose of Absurdity]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2014/01/17/heres-your-morning-dose-of-absurdity/"/>
+    <updated>2014-01-17T09:29:00-08:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2014/01/17/heres-your-morning-dose-of-absurdity</id>
+    <content type="html"><![CDATA[<p>There&rsquo;s really no other word for this than absurd. Bruce Schneier was asked to <a href="https://www.schneider.com/blog/archives/2014/01/today_i_briefed.html">brief six members of Congress yesterday</a> on the NSA&rsquo;s activities&hellip;because the NSA won&rsquo;t tell Congress what they&rsquo;re doing. WTF?</p>
+]]></content>
+  </entry>
+  
+</feed>

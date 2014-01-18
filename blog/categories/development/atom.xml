@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Development | Isaac's Blog]]></title>
+  <link href="http://blog.isaacdontjelindell.com/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://blog.isaacdontjelindell.com/"/>
+  <updated>2014-01-17T20:53:21-08:00</updated>
+  <id>http://blog.isaacdontjelindell.com/</id>
+  <author>
+    <name><![CDATA[Isaac Dontje Lindell]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Dynamically Load Content With jQuery]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2013/07/02/dynamically-load-content-with-jquery/"/>
+    <updated>2013-07-02T09:04:00-07:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2013/07/02/dynamically-load-content-with-jquery</id>
+    <content type="html"><![CDATA[<p>This post is more for my reference than anything else.</p>
+
+<p>I&rsquo;ve been working on a fairly simple static site, based on Twitter&rsquo;s <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> framework. I don&rsquo;t really want to add the complexity of a templating system or anything like that, but as the site has started to grow, maintaining a bunch of static pages has gotten a little unwieldy (yesterday I caught myself copy-pasting the footer div to 6 different files&hellip;yuck!)</p>
+
+<p>The solution? Dynamically load content that&rsquo;s repeated across a lot of pages, using jQuery.</p>
+
+<p>Here&rsquo;s how I did it (I&rsquo;ll use the footer as an example):</p>
+
+<p>First, I put the repeated content into a separate HTML file (<code>footer.html</code>).</p>
+
+<p>Then, on each page I want to have this footer in, I put in an empty div in the place I want the footer to be loaded in:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;footer&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
+</span><span class='line'>
+</span><span class='line'>
+</span><span class='line'><span class="nt">&lt;p&gt;</span> <span class="c">&lt;!-- footer loaded here --&gt;</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>At the end of the document, I use a jQuery function to load the content of the footer into the current page:</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">$</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="nx">$</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="err">#</span><span class="nx">footer</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;).</span><span class="nx">load</span><span class="p">(</span><span class="o">&amp;</span><span class="nx">ldquo</span><span class="p">;</span><span class="nx">footer</span><span class="p">.</span><span class="nx">html</span><span class="o">&amp;</span><span class="nx">rdquo</span><span class="p">;);</span>
+</span><span class='line'>  <span class="nx">$</span><span class="p">.</span><span class="nx">ajaxSetup</span><span class="p">({</span><span class="o">&lt;</span><span class="err">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">pre</span><span class="o">&gt;&lt;</span><span class="nx">code</span><span class="o">&gt;</span><span class="nx">async</span><span class="o">:</span> <span class="kc">false</span>
+</span><span class='line'><span class="o">&lt;</span><span class="err">/code&gt;&lt;/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span>  <span class="p">});</span>
+</span><span class='line'><span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>The call to <code>ajaxSetup</code> with the <code>async: false</code> parameter is optional. I put it in there to try and reduce the visual &ldquo;flicker&rdquo; that happens when the content is loaded after the rest of the page. There&rsquo;s still a small delay, but it&rsquo;s not really noticeable. It&rsquo;s also probably not necessary for a normal footer, since it&rsquo;s likely to be &ldquo;below the fold&rdquo; anyway.</p>
+]]></content>
+  </entry>
+  
+</feed>

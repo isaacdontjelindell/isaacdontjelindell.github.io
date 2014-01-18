@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://isaacdontjelindell.github.io/sitemap.xml 
+Sitemap: http://blog.isaacdontjelindell.com/sitemap.xml 

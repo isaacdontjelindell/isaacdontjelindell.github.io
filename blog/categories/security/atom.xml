@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Security | Isaac's Blog]]></title>
+  <link href="http://blog.isaacdontjelindell.com/blog/categories/security/atom.xml" rel="self"/>
+  <link href="http://blog.isaacdontjelindell.com/"/>
+  <updated>2014-01-17T20:53:21-08:00</updated>
+  <id>http://blog.isaacdontjelindell.com/</id>
+  <author>
+    <name><![CDATA[Isaac Dontje Lindell]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Encrypt Your Email With Mailvelope]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2013/06/11/encrypt-your-email-with-mailvelope/"/>
+    <updated>2013-06-11T09:20:41-07:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2013/06/11/encrypt-your-email-with-mailvelope</id>
+    <content type="html"><![CDATA[<p>During last week we&rsquo;ve all heard a lot about the previously secret NSA covert surveillance activies. Through the <a href="http://en.wikipedia.org/wiki/PRISM_(surveillance_program)">PRISM surveillance program</a>, the NSA has at least some access to a lot of user data from many different Internet services, including Google, Facebook, Microsoft, and others.</p>
+
+<p>In addition to this latest revelation, some already-existing laws have the potential affect the privacy of our Internet communications. For example, the <a href="https://ssd.eff.org/book/export/html/42#node-46">&ldquo;abandoned email&rdquo;</a> provision of the <a href="http://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act">Electronic Communications Privacy Act</a> (ECPA) allows the U.S. government to access emails that have not been read in the last 180 days without probable cause and a warrant. This includes previously read emails that may have been archived or otherwise stored, even in a still-active email account.</p>
+
+<p>Obviously, this is a little disconcerting; our Internet communication is less significantly less private that we previously thought.</p>
+
+<p>One of the ways that we can try to protect our privacy is by encrypting email communication. I recently discovered a handy plugin for Google Chrome called <a href="http://www.mailvelope.com">Mailvelope</a>. Mailvelope seamlessly integrates with the Gmail web interface to provide an easy way to encrypt and decrypt your emails using the OpenPGP standard. (It also seems to support Yahoo and Outlook.com, although I didn&rsquo;t try it with those providers).</p>
+
+<p>When you compose an email and then encrypt it with Mailvelope, the text of the email is replaced with the <a href="http://en.wikipedia.org/wiki/Ciphertext">ciphertext</a>. This means that even if someone (<em>cough</em> NSA <em>cough</em>) accesses the email from your Gmail account, all they can see is the encrypted message.</p>
+
+<p>When the recipient recieves the email, they will have to decrypt it to see what you sent them. They can either use the Mailvelope plugin also (if they have it installed) or one of many other 3rd-party programs that support OpenPGP messages.</p>
+
+<p>Here&rsquo;s how to set up Mailvelope so that you can send and recieve encrypted emails.</p>
+
+<!-- more -->
+
+
+<h2>Generate Encryption Keys</h2>
+
+<ol>
+<li><p>Install the Mailvelope plugin (find it in the <a href="https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke">Chrome web store</a>).</p></li>
+<li><p>Now we have to generate your encryption key. (Mailvelope uses public key encryption, so you encrypt an email to someone with their public key and and they use their private key to decrypt it). Click on the Mailvelope padlock icon (to the right of the Chrome address bar) and choose <code>Options</code>.</p></li>
+<li><p>Click the <code>Generate Key</code> option on the left side of the options page.</p></li>
+<li><p>Enter your full name, your email address, and a passphrase, and then click submit. IMPORTANT: Choose a strong, secure passphrase. You will use this passphrase to unlock your private key so that you can decrypt emails sent to you.</p></li>
+<li><p>Click <code>Display Keys</code> on the left side of the options page. This will show the list of keys you have available. At this point, the only key that&rsquo;ll be visible is the key we just generated. Notice the icon that looks like two keys. This means that you have both the public and private keys for this keypair. If the icon is a single key, that means that you only have the public key, allowing you to encrypt an email for someone else to read.</p></li>
+</ol>
+
+
+<h2>Exchanging Public Keys</h2>
+
+<ol>
+<li><p>To send an encrypted email to someone, you&rsquo;re going to need their public key. For them to respond, they will need yours. It&rsquo;s totally safe to send a public key by any means &ndash; in fact,  you should publicize it as much as possible so that it&rsquo;s easy for someone to send you an encrypted email. (If you want to send <em>me</em> an encrypted email, you can find my public key <a href="/blog/2013/06/08/openpgp-key/">here</a>.)</p></li>
+<li><p>To display your public key in Mailvelope, click the <code>Export</code> dropdown menu, and choose <code>Display public key</code>. This is the key you want to share.</p></li>
+<li><p>Once you have someone else&rsquo;s public key, click <code>Import Keys</code> in the Mailvelope options page. You can simply paste their key (including the <code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code> and <code>-----END PGP PUBLIC KEY BLOCK-----</code> lines) into the text box and click submit.</p></li>
+<li><p>Click <code>Display Keys</code> again. Notice that the new public key has been added.</p></li>
+</ol>
+
+
+<h2>Send An Encrypted Email</h2>
+
+<ol>
+<li><p>Now open your Gmail account and begin to compose a new email. You can fill out the recipient&rsquo;s email address and subject (remember not to put any sensitive/private information in the subject; it&rsquo;s not encrypted).</p></li>
+<li><p>Click the icon that appears when you mouse over the compose area. It looks like a notepad with a yellow pencil. This will bring up the secure compose window.</p></li>
+<li><p>Compose your email. When you have finished writing it, click the yellow padlock button. You will be prompted to choose who to encrypt the email for. The dropdown menu has a list of all the keys you have. Choose the name/email address of the person who&rsquo;s public key you imported earlier, and click the &ldquo;Add&rdquo; button.</p></li>
+<li><p>Click <code>Ok</code>. The plaintext email you wrote will be replaced with the encrypted email (starting with the line <code>-----BEGIN PGP MESSAGE----- </code> ).</p></li>
+<li><p>Click <code>Transfer</code>. This puts the encrypted message into the Gmail compose window.</p></li>
+<li><p>Click send. That&rsquo;s it! You just sent an encrypted email.</p></li>
+</ol>
+
+
+<h2>Decrypting Recieved Email</h2>
+
+<p>Now, assuming this worked, the person you sent the encrypted email to has responded with another message, this time encrypted with <em>your</em> public key. You will have to use the private key we generated earlier to decrypt it.</p>
+
+<ol>
+<li><p>Open the encrypted email that was sent to you in the Gmail web interface. When you hover over the contents of the encrypted message, Mailvelope will show a padlock icon hovering over the message text.</p></li>
+<li><p>Assuming that the person who sent the email encrypted it with your public key, Mailvelope will prompt you to enter the passsphrase for your private key. This is the passphrase you chose when you generated your keypair.</p></li>
+<li><p>Enter your passphrase and click <code>Ok</code>. The decrypted secret message will be displayed. That&rsquo;s it!</p></li>
+</ol>
+
+
+<p>Hopefully you now know how to send and recieve encrypted emails. This obviously won&rsquo;t help with other Internet communications, i.e. via Facebook, Twitter, etc. You&rsquo;ll just have to avoid using those platforms for communications of a&hellip;sensitive nature :).</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[OpenPGP Key]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key/"/>
+    <updated>2013-06-08T10:59:00-07:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key</id>
+    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#x6d;&#97;&#x69;&#108;&#116;&#111;&#58;&#105;&#64;&#105;&#x73;&#97;&#x61;&#99;&#x64;&#x6f;&#110;&#116;&#106;&#101;&#x6c;&#105;&#x6e;&#100;&#x65;&#108;&#108;&#46;&#99;&#111;&#x6d;">&#x69;&#64;&#105;&#115;&#x61;&#x61;&#99;&#x64;&#x6f;&#110;&#116;&#x6a;&#101;&#x6c;&#105;&#x6e;&#x64;&#101;&#x6c;&#x6c;&#46;&#x63;&#111;&#109;</a></a>.</p>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>&mdash;&mdash;-BEGIN PGP PUBLIC KEY BLOCK&mdash;&mdash;&ndash;
+</span><span class='line'>Version: OpenPGP.js v.1.20130228
+</span><span class='line'>Comment: &lt;a href="http://openpgpjs.org">http://openpgpjs.org&lt;/a>&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p>xsBNBFG8ib4BCACS1m8aLM+aQlpo/HHEmHWXEzR3Pb9O0acAT7qR3C0+JutA
+</span><span class='line'>1VTrK0onZc7I5LdmxWIJ4pXYUm/PR6lZOI4srhTkjBmHEzIOia5hpAqE18ML
+</span><span class='line'>nR+3coYFqFE+ALBIO3VpmmUuOGB6V18sqvUrX/JdsvMXwbu+IkAAPnkgos5M
+</span><span class='line'>qmBA62nOZwDU2PA/NRdYZJcWqurBvs7lzdkfV4im3lh1b5cZnhym9NcJFs5a
+</span><span class='line'>J/lyLjhQd+OYKp9EZlq4ETfua/EcQRh1AKPo+dx+q0jG/wpMkzjrAwKo6cC9
+</span><span class='line'>cMx3nXsJfhnsChnnU3LzLFjNCINITLfgbK9cGR+mYXDxI6QKQntX+MAfABEB
+</span><span class='line'>AAHNL0lzYWFjIERvbnRqZSBMaW5kZWxsIDxpQGlzYWFjZG9udGplbGluZGVs
+</span><span class='line'>bC5jb20+wsBcBBABAgAQBQJRvInDCRCtoDOA/EbfYQAAzjMH/0fZPo82U3+k
+</span><span class='line'>wS+UCt3wTNlOUYxULzGewjg6A6bx8dJpGPJG7fL7Vw+ltpOnvkWfUdlcgvl4
+</span><span class='line'>S5hGdxluLhQ5X7coP/Hsy9Py8vGF3DYh1fDUPrJOt0tjR7ksjo56DSVagqqr
+</span><span class='line'>7+3wd49kvXjBH7djKj319SZByR+99AopWvqxyrViBSZCSbO33JDBZkFqdewi
+</span><span class='line'>XWx4gGOQ7e97VhCAx46k6oA7xZOcTSFhpa8MuuuxCe05VtyYdlmbiU/zogWZ
+</span><span class='line'>/cw1L23x7As0OaQ3dMIujnXUK2viuoOsfasQHtXc3HVsz32drSCXxSi8o+eU
+</span><span class='line'>sEdyphgKp+WcWTsbKkXqoITWckCmbiM=
+</span><span class='line'>=QEOg
+</span><span class='line'>&mdash;&mdash;-END PGP PUBLIC KEY BLOCK&mdash;&mdash;&ndash;&lt;/p>
+</span><span class='line'>
+</span><span class='line'>&lt;p></span></code></pre></td></tr></table></div></figure></notextile></div></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,350 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>IdeaVim: Pycharm, Vim-Style - Isaac's Blog</title>
+  <meta name="author" content="Isaac Dontje Lindell">
+
+  
+  <meta name="description" content="I&rsquo;ve been using Vi (actually Vim) now for about a year as my primary code-editor. I really don&rsquo;t like using a mouse when I can help
+it, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Isaac's Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41820500-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Isaac's Blog</a></h1>
+  
+    <h2>You know, words and stuff.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.isaacdontjelindell.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">IdeaVim: Pycharm, Vim-Style</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-18T11:34:00-07:00" pubdate data-updated="true">Jun 18<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&rsquo;ve been using Vi (actually Vim) now for about a year as my primary code-editor. I really don&rsquo;t like using a mouse when I can help
+it, so the Vi keyboard-centric philosophy has been a pretty nice change to my workflow. I&rsquo;m by no means a Vi expert, but for most
+things I&rsquo;m quicker doing it in Vi than a more GUI based text editor. (I will still sometimes use GEdit or Sublime if I&rsquo;m going to
+be doing a lot of copy-paste work).</p>
+
+<p>However, I&rsquo;ve kind of missed having an actual IDE. Code completion<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> is nice, as is symbol-based code navigation. I doubt I even need
+to mention how nice an integrated debugger is! I used <a href="http://www.jetbrains.com/">Jetbrains</a> <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a> as a Java/JavaScript IDE at an internship a year ago, and really fell in love with it. The attention to detail and the level of polish really can&rsquo;t be matched by any of the open source offerings. Since then, I&rsquo;ve also used <a href="http://www.jetbrains.com/pycharm/">Jetbrains PyCharm</a> for various school projects. PyCharm has the same core and mostly the same interface as IDEA, but with superb Python support baked right in. (PyCharm also has the same JavaScript, HTML, and CSS support that IDEA does, so it&rsquo;s perfect for web development.)</p>
+
+<p>I just discovered that there is an excellent plugin for PyCharm<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> that adds really, really comprehensive Vi-style editing. <a href="http://plugins.jetbrains.com/plugin/164">IdeaVim</a> supports a pretty large subset of Vi commands. In fact, in my (admittedly pretty novice) usage of Vi commands, I have yet to run in to anything I can do in Vi that I can&rsquo;t in PyCharm with IdeaVim.</p>
+
+<p>Here&rsquo;s a list of supported features (copied from the docs):</p>
+
+<!-- more -->
+
+
+<pre><code>Supported:
+    - Motion keys
+    - Deletion/Changing
+    - Insert mode commands
+    - Marks
+    - Registers
+    - Undo/redo
+    - Visual mode commands
+    - Some Ex commands
+    - Some :set options
+    - Full Vim regexps for search and search/replace
+    - Macros
+    - Digraphs
+    - Command line and search history
+    - Vim web help
+
+Not supported (yet):
+    - Key mappings
+    - Various less used commands
+    - Jump lists
+    - Window commands
+</code></pre>
+
+<p>Not only does it provide comprehensive Vi editing, it&rsquo;s even under active development by a paid Jetbrains developer. That means that bugs and missing stuff gets fixed in a nice and timely manner (you can see the activity level on the <a href="https://github.com/JetBrains/ideavim">GitHub page</a>).</p>
+
+<h2>Installation</h2>
+
+<p>Installation is dead easy.</p>
+
+<ol>
+<li><p>Open the PyCharm settings (<code>&lt;ctrl&gt;&lt;alt&gt;&lt;S&gt;</code>)</p></li>
+<li><p>Under <code>IDE Settings</code>, choose <code>Plugins</code>.</p></li>
+<li><p>Click the button that says <code>Install Jetbrains Plugin...</code></p></li>
+<li><p>Type <code>IdeaVim</code> into the search box.</p></li>
+<li><p>Double click on the IdeaVim plugin when it shows up.</p></li>
+<li><p>You&rsquo;ll be prompted to install it and restart PyCharm.</p></li>
+<li><p>That&rsquo;s it!</p></li>
+</ol>
+
+
+<p>You can easily toggle the Vi-style editing using <code>&lt;ctrl&gt;&lt;alt&gt;&lt;V&gt;</code> or choosing <code>Vim Emulator</code> from the <code>Tools</code> menu.</p>
+
+<p>I know that Vi isn&rsquo;t for everyone. However, if you love Vi but can&rsquo;t live without an IDE, definitely take a look at IdeaVim!</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I know there are some Vi plugins that allow various levels of code completion, but all of them have some issues and most are kind of a pain to get working.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>It actually supports all of the Jetbrains IDE  based on the IntelliJ platform, including IDEA, PhpStorm and RubyMine.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Isaac Dontje Lindell</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-18T11:34:00-07:00" pubdate data-updated="true">Jun 18<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/productivity/'>productivity</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style/" data-via="" data-counturl="http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/06/11/encrypt-your-email-with-mailvelope/" title="Previous Post: Encrypt your email with Mailvelope">&laquo; Encrypt your email with Mailvelope</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/07/02/dynamically-load-content-with-jquery/" title="Next Post: Dynamically Load Content With jQuery">Dynamically Load Content With jQuery &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/01/17/thats-not-how-you-constitution/">That's Not How You Constitution, Mr. Obama</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/17/heres-your-morning-dose-of-absurdity/">Here's Your Morning Dose of Absurdity</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/16/hummer-winblad-and-phillip-alvelda/">The Future of Software: Venture Capitalists vs. Scientists</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/15/bizo/">Bizo, MoovWeb, and Sara Ellefsen</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/14/pinterest-and-strava/">Pinterest and Strava</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/isaacdontjelindell">@isaacdontjelindell</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'isaacdontjelindell',
+            count: 0,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Isaac Dontje Lindell -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'isaacdontjelindellblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style/';
+        var disqus_url = 'http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

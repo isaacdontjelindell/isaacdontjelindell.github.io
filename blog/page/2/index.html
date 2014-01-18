@@ -1,0 +1,432 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Isaac's Blog</title>
+  <meta name="author" content="Isaac Dontje Lindell">
+
+  
+  <meta name="description" content="I&rsquo;ve been using Vi (actually Vim) now for about a year as my primary code-editor. I really don&rsquo;t like using a mouse when I can help
+it, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.isaacdontjelindell.com/blog/page/2">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Isaac's Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41820500-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Isaac's Blog</a></h1>
+  
+    <h2>You know, words and stuff.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.isaacdontjelindell.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/18/jetbrains-pycharm-vim-style/">IdeaVim: Pycharm, Vim-Style</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-18T11:34:00-07:00" pubdate data-updated="true">Jun 18<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;ve been using Vi (actually Vim) now for about a year as my primary code-editor. I really don&rsquo;t like using a mouse when I can help
+it, so the Vi keyboard-centric philosophy has been a pretty nice change to my workflow. I&rsquo;m by no means a Vi expert, but for most
+things I&rsquo;m quicker doing it in Vi than a more GUI based text editor. (I will still sometimes use GEdit or Sublime if I&rsquo;m going to
+be doing a lot of copy-paste work).</p>
+
+<p>However, I&rsquo;ve kind of missed having an actual IDE. Code completion<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> is nice, as is symbol-based code navigation. I doubt I even need
+to mention how nice an integrated debugger is! I used <a href="http://www.jetbrains.com/">Jetbrains</a> <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a> as a Java/JavaScript IDE at an internship a year ago, and really fell in love with it. The attention to detail and the level of polish really can&rsquo;t be matched by any of the open source offerings. Since then, I&rsquo;ve also used <a href="http://www.jetbrains.com/pycharm/">Jetbrains PyCharm</a> for various school projects. PyCharm has the same core and mostly the same interface as IDEA, but with superb Python support baked right in. (PyCharm also has the same JavaScript, HTML, and CSS support that IDEA does, so it&rsquo;s perfect for web development.)</p>
+
+<p>I just discovered that there is an excellent plugin for PyCharm<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> that adds really, really comprehensive Vi-style editing. <a href="http://plugins.jetbrains.com/plugin/164">IdeaVim</a> supports a pretty large subset of Vi commands. In fact, in my (admittedly pretty novice) usage of Vi commands, I have yet to run in to anything I can do in Vi that I can&rsquo;t in PyCharm with IdeaVim.</p>
+
+<p>Here&rsquo;s a list of supported features (copied from the docs):</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/06/18/jetbrains-pycharm-vim-style/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/11/encrypt-your-email-with-mailvelope/">Encrypt Your Email With Mailvelope</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-11T09:20:41-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>During last week we&rsquo;ve all heard a lot about the previously secret NSA covert surveillance activies. Through the <a href="http://en.wikipedia.org/wiki/PRISM_(surveillance_program)">PRISM surveillance program</a>, the NSA has at least some access to a lot of user data from many different Internet services, including Google, Facebook, Microsoft, and others.</p>
+
+<p>In addition to this latest revelation, some already-existing laws have the potential affect the privacy of our Internet communications. For example, the <a href="https://ssd.eff.org/book/export/html/42#node-46">&ldquo;abandoned email&rdquo;</a> provision of the <a href="http://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act">Electronic Communications Privacy Act</a> (ECPA) allows the U.S. government to access emails that have not been read in the last 180 days without probable cause and a warrant. This includes previously read emails that may have been archived or otherwise stored, even in a still-active email account.</p>
+
+<p>Obviously, this is a little disconcerting; our Internet communication is less significantly less private that we previously thought.</p>
+
+<p>One of the ways that we can try to protect our privacy is by encrypting email communication. I recently discovered a handy plugin for Google Chrome called <a href="http://www.mailvelope.com">Mailvelope</a>. Mailvelope seamlessly integrates with the Gmail web interface to provide an easy way to encrypt and decrypt your emails using the OpenPGP standard. (It also seems to support Yahoo and Outlook.com, although I didn&rsquo;t try it with those providers).</p>
+
+<p>When you compose an email and then encrypt it with Mailvelope, the text of the email is replaced with the <a href="http://en.wikipedia.org/wiki/Ciphertext">ciphertext</a>. This means that even if someone (<em>cough</em> NSA <em>cough</em>) accesses the email from your Gmail account, all they can see is the encrypted message.</p>
+
+<p>When the recipient recieves the email, they will have to decrypt it to see what you sent them. They can either use the Mailvelope plugin also (if they have it installed) or one of many other 3rd-party programs that support OpenPGP messages.</p>
+
+<p>Here&rsquo;s how to set up Mailvelope so that you can send and recieve encrypted emails.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/06/11/encrypt-your-email-with-mailvelope/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/08/openpgp-key/">OpenPGP Key</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-08T10:59:00-07:00" pubdate data-updated="true">Jun 8<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;&#58;&#105;&#x40;&#105;&#115;&#97;&#x61;&#99;&#x64;&#111;&#x6e;&#116;&#x6a;&#x65;&#x6c;&#x69;&#110;&#100;&#101;&#x6c;&#108;&#46;&#99;&#111;&#109;">&#x69;&#x40;&#105;&#115;&#97;&#x61;&#99;&#100;&#x6f;&#110;&#x74;&#x6a;&#101;&#x6c;&#x69;&#110;&#100;&#x65;&#108;&#x6c;&#46;&#x63;&#x6f;&#109;</a></a>.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>-----BEGIN PGP PUBLIC KEY BLOCK-----
+</span><span class='line'>Version: OpenPGP.js v.1.20130228
+</span><span class='line'>Comment: http://openpgpjs.org
+</span><span class='line'>
+</span><span class='line'>xsBNBFG8ib4BCACS1m8aLM+aQlpo/HHEmHWXEzR3Pb9O0acAT7qR3C0+JutA
+</span><span class='line'>1VTrK0onZc7I5LdmxWIJ4pXYUm/PR6lZOI4srhTkjBmHEzIOia5hpAqE18ML
+</span><span class='line'>nR+3coYFqFE+ALBIO3VpmmUuOGB6V18sqvUrX/JdsvMXwbu+IkAAPnkgos5M
+</span><span class='line'>qmBA62nOZwDU2PA/NRdYZJcWqurBvs7lzdkfV4im3lh1b5cZnhym9NcJFs5a
+</span><span class='line'>J/lyLjhQd+OYKp9EZlq4ETfua/EcQRh1AKPo+dx+q0jG/wpMkzjrAwKo6cC9
+</span><span class='line'>cMx3nXsJfhnsChnnU3LzLFjNCINITLfgbK9cGR+mYXDxI6QKQntX+MAfABEB
+</span><span class='line'>AAHNL0lzYWFjIERvbnRqZSBMaW5kZWxsIDxpQGlzYWFjZG9udGplbGluZGVs
+</span><span class='line'>bC5jb20+wsBcBBABAgAQBQJRvInDCRCtoDOA/EbfYQAAzjMH/0fZPo82U3+k
+</span><span class='line'>wS+UCt3wTNlOUYxULzGewjg6A6bx8dJpGPJG7fL7Vw+ltpOnvkWfUdlcgvl4
+</span><span class='line'>S5hGdxluLhQ5X7coP/Hsy9Py8vGF3DYh1fDUPrJOt0tjR7ksjo56DSVagqqr
+</span><span class='line'>7+3wd49kvXjBH7djKj319SZByR+99AopWvqxyrViBSZCSbO33JDBZkFqdewi
+</span><span class='line'>XWx4gGOQ7e97VhCAx46k6oA7xZOcTSFhpa8MuuuxCe05VtyYdlmbiU/zogWZ
+</span><span class='line'>/cw1L23x7As0OaQ3dMIujnXUK2viuoOsfasQHtXc3HVsz32drSCXxSi8o+eU
+</span><span class='line'>sEdyphgKp+WcWTsbKkXqoITWckCmbiM=
+</span><span class='line'>=QEOg
+</span><span class='line'>-----END PGP PUBLIC KEY BLOCK-----</span></code></pre></td></tr></table></div></figure>
+
+
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/06/08/ubuntu-multiple-sessions/">Multiple Ubuntu Unity Sessions</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-08T09:20:41-07:00" pubdate data-updated="true">Jun 8<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I often find myself working on several programming projects at once. This generally involves one or more Chrome windows, multiple Vi terminal windows, and miscellaneous text editors, Gimp windows, Evernote pages, etc, all arranged over multiple workspaces (usually the same ones so I can find stuff quickly!).</p>
+
+<p>I&rsquo;ve often wished I could have multiple X sessions running at the same time, completely independent of each other. Then I could have one project open and spread out, while being able to quickly switch to a different project, with its unique set of windows and layout options.</p>
+
+<p>I just discovered that if multiple users are logged in to an Ubuntu machine, it&rsquo;ll put each user&rsquo;s X session in a separate TTY (virtual terminal). The first 6, TTY1 &ndash; TTY6, are console sessions. The first user to log into a graphical session in Ubuntu is on TTY7. If you switch users (Gear menu &ndash;> Switch Users) and log in to a different user account on the computer, it will start that session on TTY8.</p>
+
+<p>Note: TTY&rsquo;s can be accessed by typing <code>&lt;ctrl&gt;&lt;alt&gt;&lt;tty_num %F%&gt;</code>. So to access TTY8, for example, I would type <code>&lt;ctrl&gt;&lt;alt&gt;&lt;F8&gt;</code>.</p>
+
+<p>I had originally hoped that I could start a separate X session but still log in as my main user account. Unfortuantely, this doesn&rsquo;t seem to be possible with Unity &ndash; I can start another X session and log in, and even manually start Unity, but every time I open programs, they appear in the first Unity session, on TTY7.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/2013/06/08/ubuntu-multiple-sessions/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/01/17/thats-not-how-you-constitution/">That&#8217;s Not How You Constitution, Mr. Obama</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/17/heres-your-morning-dose-of-absurdity/">Here&#8217;s Your Morning Dose of Absurdity</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/16/hummer-winblad-and-phillip-alvelda/">The Future of Software: Venture Capitalists vs. Scientists</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/15/bizo/">Bizo, MoovWeb, and Sara Ellefsen</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/14/pinterest-and-strava/">Pinterest and Strava</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <a href="https://github.com/isaacdontjelindell">@isaacdontjelindell</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'isaacdontjelindell',
+            count: 0,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Isaac Dontje Lindell -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'isaacdontjelindellblog';
+      
+        
+        var disqus_script = 'count.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

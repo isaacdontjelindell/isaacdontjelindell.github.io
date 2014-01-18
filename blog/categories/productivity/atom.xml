@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Productivity | Isaac's Blog]]></title>
+  <link href="http://blog.isaacdontjelindell.com/blog/categories/productivity/atom.xml" rel="self"/>
+  <link href="http://blog.isaacdontjelindell.com/"/>
+  <updated>2014-01-17T20:53:21-08:00</updated>
+  <id>http://blog.isaacdontjelindell.com/</id>
+  <author>
+    <name><![CDATA[Isaac Dontje Lindell]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[IdeaVim: Pycharm, Vim-Style]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style/"/>
+    <updated>2013-06-18T11:34:00-07:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve been using Vi (actually Vim) now for about a year as my primary code-editor. I really don&rsquo;t like using a mouse when I can help
+it, so the Vi keyboard-centric philosophy has been a pretty nice change to my workflow. I&rsquo;m by no means a Vi expert, but for most
+things I&rsquo;m quicker doing it in Vi than a more GUI based text editor. (I will still sometimes use GEdit or Sublime if I&rsquo;m going to
+be doing a lot of copy-paste work).</p>
+
+<p>However, I&rsquo;ve kind of missed having an actual IDE. Code completion<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> is nice, as is symbol-based code navigation. I doubt I even need
+to mention how nice an integrated debugger is! I used <a href="http://www.jetbrains.com/">Jetbrains</a> <a href="http://www.jetbrains.com/idea/">IntelliJ IDEA</a> as a Java/JavaScript IDE at an internship a year ago, and really fell in love with it. The attention to detail and the level of polish really can&rsquo;t be matched by any of the open source offerings. Since then, I&rsquo;ve also used <a href="http://www.jetbrains.com/pycharm/">Jetbrains PyCharm</a> for various school projects. PyCharm has the same core and mostly the same interface as IDEA, but with superb Python support baked right in. (PyCharm also has the same JavaScript, HTML, and CSS support that IDEA does, so it&rsquo;s perfect for web development.)</p>
+
+<p>I just discovered that there is an excellent plugin for PyCharm<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup> that adds really, really comprehensive Vi-style editing. <a href="http://plugins.jetbrains.com/plugin/164">IdeaVim</a> supports a pretty large subset of Vi commands. In fact, in my (admittedly pretty novice) usage of Vi commands, I have yet to run in to anything I can do in Vi that I can&rsquo;t in PyCharm with IdeaVim.</p>
+
+<p>Here&rsquo;s a list of supported features (copied from the docs):</p>
+
+<!-- more -->
+
+
+<pre><code>Supported:
+    - Motion keys
+    - Deletion/Changing
+    - Insert mode commands
+    - Marks
+    - Registers
+    - Undo/redo
+    - Visual mode commands
+    - Some Ex commands
+    - Some :set options
+    - Full Vim regexps for search and search/replace
+    - Macros
+    - Digraphs
+    - Command line and search history
+    - Vim web help
+
+Not supported (yet):
+    - Key mappings
+    - Various less used commands
+    - Jump lists
+    - Window commands
+</code></pre>
+
+<p>Not only does it provide comprehensive Vi editing, it&rsquo;s even under active development by a paid Jetbrains developer. That means that bugs and missing stuff gets fixed in a nice and timely manner (you can see the activity level on the <a href="https://github.com/JetBrains/ideavim">GitHub page</a>).</p>
+
+<h2>Installation</h2>
+
+<p>Installation is dead easy.</p>
+
+<ol>
+<li><p>Open the PyCharm settings (<code>&lt;ctrl&gt;&lt;alt&gt;&lt;S&gt;</code>)</p></li>
+<li><p>Under <code>IDE Settings</code>, choose <code>Plugins</code>.</p></li>
+<li><p>Click the button that says <code>Install Jetbrains Plugin...</code></p></li>
+<li><p>Type <code>IdeaVim</code> into the search box.</p></li>
+<li><p>Double click on the IdeaVim plugin when it shows up.</p></li>
+<li><p>You&rsquo;ll be prompted to install it and restart PyCharm.</p></li>
+<li><p>That&rsquo;s it!</p></li>
+</ol>
+
+
+<p>You can easily toggle the Vi-style editing using <code>&lt;ctrl&gt;&lt;alt&gt;&lt;V&gt;</code> or choosing <code>Vim Emulator</code> from the <code>Tools</code> menu.</p>
+
+<p>I know that Vi isn&rsquo;t for everyone. However, if you love Vi but can&rsquo;t live without an IDE, definitely take a look at IdeaVim!</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I know there are some Vi plugins that allow various levels of code completion, but all of them have some issues and most are kind of a pain to get working.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>It actually supports all of the Jetbrains IDE  based on the IntelliJ platform, including IDEA, PhpStorm and RubyMine.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Funny | Isaac's Blog]]></title>
+  <link href="http://blog.isaacdontjelindell.com/blog/categories/funny/atom.xml" rel="self"/>
+  <link href="http://blog.isaacdontjelindell.com/"/>
+  <updated>2014-01-17T20:53:21-08:00</updated>
+  <id>http://blog.isaacdontjelindell.com/</id>
+  <author>
+    <name><![CDATA[Isaac Dontje Lindell]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Favorite StackOverflow Question of All Time]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2013/08/01/my-favorite-stackoverflow-question-of-all-time/"/>
+    <updated>2013-08-01T10:22:00-07:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2013/08/01/my-favorite-stackoverflow-question-of-all-time</id>
+    <content type="html"><![CDATA[<p>The best SO question I&rsquo;ve ever seen: <a href="http://stackoverflow.com/questions/4456438/how-can-i-pass-the-string-null-through-wsdl-soap-from-as3-to-coldfusion-web?rq=1">How can I pass the string “Null” through WSDL (SOAP) from AS3 to ColdFusion web service without receiving a “missing parameter error”?</a>.</p>
+
+<p>And of course, the obligatory related XCKD:
+<img class="<a" src="href="http://imgs.xkcd.com/comics/exploits_of_a_mom.png">http://imgs.xkcd.com/comics/exploits_of_a_mom.png</a>"></p>
+]]></content>
+  </entry>
+  
+</feed>

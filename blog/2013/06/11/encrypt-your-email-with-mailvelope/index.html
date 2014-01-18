@@ -1,0 +1,343 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Encrypt Your Email With Mailvelope - Isaac's Blog</title>
+  <meta name="author" content="Isaac Dontje Lindell">
+
+  
+  <meta name="description" content="During last week we&rsquo;ve all heard a lot about the previously secret NSA covert surveillance activies. Through the PRISM surveillance program, &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.isaacdontjelindell.com/blog/2013/06/11/encrypt-your-email-with-mailvelope">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Isaac's Blog" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41820500-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Isaac's Blog</a></h1>
+  
+    <h2>You know, words and stuff.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.isaacdontjelindell.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Encrypt Your Email With Mailvelope</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-11T09:20:41-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>During last week we&rsquo;ve all heard a lot about the previously secret NSA covert surveillance activies. Through the <a href="http://en.wikipedia.org/wiki/PRISM_(surveillance_program)">PRISM surveillance program</a>, the NSA has at least some access to a lot of user data from many different Internet services, including Google, Facebook, Microsoft, and others.</p>
+
+<p>In addition to this latest revelation, some already-existing laws have the potential affect the privacy of our Internet communications. For example, the <a href="https://ssd.eff.org/book/export/html/42#node-46">&ldquo;abandoned email&rdquo;</a> provision of the <a href="http://en.wikipedia.org/wiki/Electronic_Communications_Privacy_Act">Electronic Communications Privacy Act</a> (ECPA) allows the U.S. government to access emails that have not been read in the last 180 days without probable cause and a warrant. This includes previously read emails that may have been archived or otherwise stored, even in a still-active email account.</p>
+
+<p>Obviously, this is a little disconcerting; our Internet communication is less significantly less private that we previously thought.</p>
+
+<p>One of the ways that we can try to protect our privacy is by encrypting email communication. I recently discovered a handy plugin for Google Chrome called <a href="http://www.mailvelope.com">Mailvelope</a>. Mailvelope seamlessly integrates with the Gmail web interface to provide an easy way to encrypt and decrypt your emails using the OpenPGP standard. (It also seems to support Yahoo and Outlook.com, although I didn&rsquo;t try it with those providers).</p>
+
+<p>When you compose an email and then encrypt it with Mailvelope, the text of the email is replaced with the <a href="http://en.wikipedia.org/wiki/Ciphertext">ciphertext</a>. This means that even if someone (<em>cough</em> NSA <em>cough</em>) accesses the email from your Gmail account, all they can see is the encrypted message.</p>
+
+<p>When the recipient recieves the email, they will have to decrypt it to see what you sent them. They can either use the Mailvelope plugin also (if they have it installed) or one of many other 3rd-party programs that support OpenPGP messages.</p>
+
+<p>Here&rsquo;s how to set up Mailvelope so that you can send and recieve encrypted emails.</p>
+
+<!-- more -->
+
+
+<h2>Generate Encryption Keys</h2>
+
+<ol>
+<li><p>Install the Mailvelope plugin (find it in the <a href="https://chrome.google.com/webstore/detail/mailvelope/kajibbejlbohfaggdiogboambcijhkke">Chrome web store</a>).</p></li>
+<li><p>Now we have to generate your encryption key. (Mailvelope uses public key encryption, so you encrypt an email to someone with their public key and and they use their private key to decrypt it). Click on the Mailvelope padlock icon (to the right of the Chrome address bar) and choose <code>Options</code>.</p></li>
+<li><p>Click the <code>Generate Key</code> option on the left side of the options page.</p></li>
+<li><p>Enter your full name, your email address, and a passphrase, and then click submit. IMPORTANT: Choose a strong, secure passphrase. You will use this passphrase to unlock your private key so that you can decrypt emails sent to you.</p></li>
+<li><p>Click <code>Display Keys</code> on the left side of the options page. This will show the list of keys you have available. At this point, the only key that&rsquo;ll be visible is the key we just generated. Notice the icon that looks like two keys. This means that you have both the public and private keys for this keypair. If the icon is a single key, that means that you only have the public key, allowing you to encrypt an email for someone else to read.</p></li>
+</ol>
+
+
+<h2>Exchanging Public Keys</h2>
+
+<ol>
+<li><p>To send an encrypted email to someone, you&rsquo;re going to need their public key. For them to respond, they will need yours. It&rsquo;s totally safe to send a public key by any means &ndash; in fact,  you should publicize it as much as possible so that it&rsquo;s easy for someone to send you an encrypted email. (If you want to send <em>me</em> an encrypted email, you can find my public key <a href="/blog/2013/06/08/openpgp-key/">here</a>.)</p></li>
+<li><p>To display your public key in Mailvelope, click the <code>Export</code> dropdown menu, and choose <code>Display public key</code>. This is the key you want to share.</p></li>
+<li><p>Once you have someone else&rsquo;s public key, click <code>Import Keys</code> in the Mailvelope options page. You can simply paste their key (including the <code>-----BEGIN PGP PUBLIC KEY BLOCK-----</code> and <code>-----END PGP PUBLIC KEY BLOCK-----</code> lines) into the text box and click submit.</p></li>
+<li><p>Click <code>Display Keys</code> again. Notice that the new public key has been added.</p></li>
+</ol>
+
+
+<h2>Send An Encrypted Email</h2>
+
+<ol>
+<li><p>Now open your Gmail account and begin to compose a new email. You can fill out the recipient&rsquo;s email address and subject (remember not to put any sensitive/private information in the subject; it&rsquo;s not encrypted).</p></li>
+<li><p>Click the icon that appears when you mouse over the compose area. It looks like a notepad with a yellow pencil. This will bring up the secure compose window.</p></li>
+<li><p>Compose your email. When you have finished writing it, click the yellow padlock button. You will be prompted to choose who to encrypt the email for. The dropdown menu has a list of all the keys you have. Choose the name/email address of the person who&rsquo;s public key you imported earlier, and click the &ldquo;Add&rdquo; button.</p></li>
+<li><p>Click <code>Ok</code>. The plaintext email you wrote will be replaced with the encrypted email (starting with the line <code>-----BEGIN PGP MESSAGE----- </code> ).</p></li>
+<li><p>Click <code>Transfer</code>. This puts the encrypted message into the Gmail compose window.</p></li>
+<li><p>Click send. That&rsquo;s it! You just sent an encrypted email.</p></li>
+</ol>
+
+
+<h2>Decrypting Recieved Email</h2>
+
+<p>Now, assuming this worked, the person you sent the encrypted email to has responded with another message, this time encrypted with <em>your</em> public key. You will have to use the private key we generated earlier to decrypt it.</p>
+
+<ol>
+<li><p>Open the encrypted email that was sent to you in the Gmail web interface. When you hover over the contents of the encrypted message, Mailvelope will show a padlock icon hovering over the message text.</p></li>
+<li><p>Assuming that the person who sent the email encrypted it with your public key, Mailvelope will prompt you to enter the passsphrase for your private key. This is the passphrase you chose when you generated your keypair.</p></li>
+<li><p>Enter your passphrase and click <code>Ok</code>. The decrypted secret message will be displayed. That&rsquo;s it!</p></li>
+</ol>
+
+
+<p>Hopefully you now know how to send and recieve encrypted emails. This obviously won&rsquo;t help with other Internet communications, i.e. via Facebook, Twitter, etc. You&rsquo;ll just have to avoid using those platforms for communications of a&hellip;sensitive nature :).</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Isaac Dontje Lindell</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-06-11T09:20:41-07:00" pubdate data-updated="true">Jun 11<span>th</span>, 2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/security/'>security</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.isaacdontjelindell.com/blog/2013/06/11/encrypt-your-email-with-mailvelope/" data-via="" data-counturl="http://blog.isaacdontjelindell.com/blog/2013/06/11/encrypt-your-email-with-mailvelope/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/06/08/openpgp-key/" title="Previous Post: OpenPGP Key">&laquo; OpenPGP Key</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/06/18/jetbrains-pycharm-vim-style/" title="Next Post: IdeaVim: Pycharm, Vim-Style">IdeaVim: Pycharm, Vim-Style &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/01/17/thats-not-how-you-constitution/">That's Not How You Constitution, Mr. Obama</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/17/heres-your-morning-dose-of-absurdity/">Here's Your Morning Dose of Absurdity</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/16/hummer-winblad-and-phillip-alvelda/">The Future of Software: Venture Capitalists vs. Scientists</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/15/bizo/">Bizo, MoovWeb, and Sara Ellefsen</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/01/14/pinterest-and-strava/">Pinterest and Strava</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/isaacdontjelindell">@isaacdontjelindell</a> on GitHub
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'isaacdontjelindell',
+            count: 0,
+            skip_forks: false,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Isaac Dontje Lindell -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'isaacdontjelindellblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.isaacdontjelindell.com/blog/2013/06/11/encrypt-your-email-with-mailvelope/';
+        var disqus_url = 'http://blog.isaacdontjelindell.com/blog/2013/06/11/encrypt-your-email-with-mailvelope/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
