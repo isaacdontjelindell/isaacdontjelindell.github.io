@@ -12,8 +12,6 @@ The first visit was to the Pinterest headquarters in the Soma neighborhood of Sa
 
 We had a chance to meet with John and Dan, two data scientists at Pinterest. As data scientists, they're responsible for analyzing metrics related to the service that Pinterest provides, and making sure that issues are resolved. On a technical basis, that means using things like the R programming language, the Hadoop database engine, and various other analytic tools to measure metrics from user engagement to site reliability to demographic information.
 
-<!--more-->
-
 One of the most interesting challenges that Pinterest is facing is how to expand its user base from their historically predominate demographic: American women. They want to change the gender balance to include more men, as well as expanding to more international users. 
 
 One of the components of this that Dan and John talked about is that in many ways, they don't really understand exactly why Pinterest is so popular (among women), and so it's very difficult to figure out how to attract more male users. Is it because there isn't enough content that's interesting to a male audience, or is the content there but there just isn't a critical mass of male users?

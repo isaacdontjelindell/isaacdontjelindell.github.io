@@ -13,8 +13,6 @@ We met with a guy named Sam. Sam works in the legal operations department, altho
 
 I had a chance to ask Sam about the areas that Amazon is most concerned about in near future (~5 years), and he gave me three issues (with a bonus fourth).
 
-<!-- more -->
-
 #### Privacy and Data Security
 
 The first was issues of privacy and data security, which is really interesting to me. Amazon obviously has a massive database of user information, including the usual contact and financial information that any e-retailer has, but they also have a vast corpus of information about people's preferences: what they've bought, when they like to buy, what kinds of stuff they would probably consider buying the future. 

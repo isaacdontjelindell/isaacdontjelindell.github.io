@@ -12,8 +12,6 @@ The first group we visited this morning was the PR firm MSL Group, where we met 
 
 MSL Group is in the top five global PR firms, so they obviously have some pretty big clients. The biggest client that Bryan works with is PayPal, so it was pretty interesting to get a glimpse into what he and the rest of the MSL Group staff do.
 
-<!--more-->
-
 One of the things that stood out to me is when someone asked Bryan what kinds of stuff he does when he starts a new campaign or signs a new client. He said that coming up with cool ideas and PR stunts is relatively easy. The hard part is figuring out what effect a particular action has on the customer. Does it help their brand? Does it (accidentally) portray them in a poor light? Does it do anything at all?
 
 Bryan clearly loves his job, and it really came out in his enthusiasm in talking to us. He says that as a PR exec, he has to really learn to know a customer forward, backwards, everything. He has to completely understand their business, their market, their target audience, their challenges, and their image. What this means is that he gets to do wildly different things all the time, and he is always getting to learn new things. One day, he might be writing a blog post for the PayPal corporate blog, while on another day he could be researching the genealogy services market for Ancestry.com. 

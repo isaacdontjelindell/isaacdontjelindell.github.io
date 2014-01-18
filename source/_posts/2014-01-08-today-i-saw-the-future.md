@@ -12,8 +12,6 @@ The first part of the day was a tour of the Microsoft Envisioning Center. The En
 
 They have the Envisioning Center divided up into a few different sections, representing the future workspace (i.e. the corporate experience) and a model domestic home. 
 
-<!--more-->
-
 Probably the most significant change that Microsoft thinks the future will hold is in the proliferation of interoperable touch screens. Our tour guide demoed several scenarios where content on a phone or tablet could be "thrown" onto a big screen to display to a group or simply to see in a bigger format.
 
 Another cool example was a series of networked digital picture frames scattered throughout the model home. The guide could do things like select a series of photos from a family album and have them rotated throughout the home.

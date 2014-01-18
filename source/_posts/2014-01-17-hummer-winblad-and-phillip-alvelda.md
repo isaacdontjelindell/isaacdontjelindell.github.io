@@ -10,8 +10,6 @@ Today was our last day here in San Francisco. Tomorrow morning, we're getting on
 
 This morning, we met with Ann Winblad, of Hummer Winblad Venture Partners. (Ann's VC firm was one of the early funders of Brad's startup, NetPerceptions). Ann is an incredibly engaging speaker, and she gave us a great intro to the world of venture capital, and a lot of description of where she thinks the world of commercial software development is going.
 
-<!--more-->
-
 One of Ann's main points is that software development is no longer a task where an isolated startup or other company will write a product from the ground up. Instead, software development comes down to connecting existing components together, leveraging existing corpora of data or databases of prepackaged software components (e.g. Maven). 
 
 I found myself thinking about this a lot, and I'm still not sure if I totally agree. It's very true that it's easy to build cool pieces of software simply by leveraging other existing software. For example, I'm working on a web application that's a prettier, friendlier front end to the Calibre ebook management software. I'm (obviously) using the interface exposed by Calibre to get book metadata. I'm using Bootstrap to lay out the interface (a designer I am not!). I'm using a framework called Angular.js to handle displaying data and updating it easily. 
