@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Web | Isaac's Blog]]></title>
+  <title><![CDATA[Category: Web | Technoto]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/web/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-17T21:08:27-08:00</updated>
+  <updated>2014-01-17T21:23:38-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
