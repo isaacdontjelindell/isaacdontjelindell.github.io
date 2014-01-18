@@ -4,7 +4,7 @@
   <title><![CDATA[Technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-17T21:28:17-08:00</updated>
+  <updated>2014-01-18T10:33:24-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -12,6 +12,33 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Assimilation Into the GooglePlex]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2014/01/18/assimilation-into-the-googleplex/"/>
+    <updated>2014-01-18T09:26:02-08:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2014/01/18/assimilation-into-the-googleplex</id>
+    <content type="html"><![CDATA[<p>Yesterday, we visited Google headquarters, in Mountain View, California. It was certainly an impressive experience, but I was left with some mixed feelings about the experience.</p>
+
+<p>First of all, Google is obviously doing some really cool stuff. My computer and Internet experience would be very different without Google. I use Gmail, Calendar, Maps, Search, Chrome, and other products every day. Large parts of the Internet are financed by Google-served ads.</p>
+
+<p>Google also has the deep pockets and corporate will to perform groundbreaking research. Their self-driving car is incredible, and Google Glass is pretty revolutionary (whatever you think about the benefit to humanity).</p>
+
+<p>On the other hand, I found myself fairly uncomfortable a many points during our visit yesterday. One of the people we met was Craig Cornelius, a former Luther alumna who works on the internationalization team (i18n) at Google. One of the first things Craig said when he starting talking about Google was, &ldquo;how much do you pay Google to use our services?&rdquo; It&rsquo;s a fairly innocuous question, but he clearly expected us to answer that we paid nothing.</p>
+
+<p>When someone said that we paid with our personal information, he sort of acknowledged the point, but then immediately moved on to convincing us that because we don&rsquo;t &ldquo;cut Google a check,&rdquo; we really aren&rsquo;t paying anything. That unwillingness to acknowledge Google&rsquo;s core money-maker (our data) leaves a bad taste in my mouth.</p>
+
+<p>I give them that data willingly, in exchange for some very useful services and products. But if Craig&rsquo;s perspective is common at Google, I have to feel like they&rsquo;re simply trying to forget (or convince the rest of us to forget) that we <em>are</em> paying them.</p>
+
+<p>I did enjoying seeing the campus with Charles Banta (a recent Luther grad, and someone I&rsquo;ve worked with at the Luther Tech Help Desk), and getting to see some of the perks that Googlers get. Google clearly views time that employees are not on campus as wasted time. And when you can eat, drink, sleep, get a haircut, get your car repaired, do your laundry, see a doctor, and work out, what&rsquo;s the point of going home?</p>
+
+<p>Again, it would be fun to work at Google, and I know that Charles is really enjoying it. But I can&rsquo;t help but think that your life would quickly become Google-centric. It&rsquo;s one thing to love your job and want to work a lot (a situation I hope to find myself in when I enter the job market), but the word &ldquo;assimilation&rdquo; kept popping in to my head during the entire visit. (For a fictional take on this, I highly recommend reading <a href="https://www.goodreads.com/book/show/18302455-the-circle">The Circle</a> by Dave Eggers. Just replace &ldquo;The Circle&rdquo; with &ldquo;Google&rdquo; and you&rsquo;ll have a good idea how I felt visting Google.)</p>
+
+<p>Two of the technical talks we heard, however, were fantastic. Craig Cornelius gave a lecture on the challenges of internationalization of Google products. It didn&rsquo;t sound that interesting at first, but his team has to solve so incredibly difficult projects. How you design projects so that they work equally well with left-to-right AND right-to-left languages? How do you handle keyboard input in a language that has thousands of &ldquo;letters&rdquo;? How do you deal with one of the hundreds of ways a single date and time can be expressed?</p>
+
+<p>We also had a chance to hear a little bit from Brian, an engineer on Google&rsquo;s self-driving car team (unfortunately, I didn&rsquo;t manage to catch his last name). We didn&rsquo;t have a chance to get as technical as I would have liked due to time issues, but he had a great introduction to the technology behind the &ldquo;perception suite&rdquo; that&rsquo;s used to make the car &ldquo;see&rdquo;, and some interesting scenarios for possible societal changes that might be caused by the introduction of autonomous cars.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[That's Not How You Constitution, Mr. Obama]]></title>
@@ -26,9 +53,6 @@
 
 <p>One issue of potential constitutional significance is that cases heard in the secret FISA court are completely one sided: the judges hear only the government&rsquo;s side. The review panel recommended that an advocate be appointed to argue against the government (for the defendants who don&rsquo;t even know that they&rsquo;re being considered for surveillance).</p>
 
-<!--more-->
-
-
 <p>In his speech today, President Obama said that he will create a &ldquo;panel of advocates&rdquo; to represent privacy concerns in significant cases.</p>
 
 <p>From The New York Times:</p>
@@ -42,7 +66,7 @@
 
 <p>The other disappointment for me was President Obama&rsquo;s failure to implement the requirement that a judge sign off before a <a href="http://en.wikipedia.org/wiki/National_security_letter">national security letter</a> (NSL) can be served. He did change the policy on the mandatory gag orders that stop recipients of NSLs from discussing them or even mentioning that they&rsquo;d received one. The gag orders will now have a fixed expiration date. It&rsquo;s not perfect: he didn&rsquo;t say how long that fixed expiration time period will be (if it&rsquo;s longer than a few months, what&rsquo;s the point?) and the weasel words, &ldquo;in most cases,&rdquo; make me uncomfortable.</p>
 
-<p>There are a lot of other specific recommendations by the review panel that I think Mr. Obama stopped short of adequately addressing. I&rsquo;d recommending reading the <a href="http://www.nytimes.com/interactive/2014/01/17/us/nsa-changes-graphic.html">NYTimes</a> piece &ndash; it does a great job of breaking down his response to each of the recommendations.</p>
+<p>There are a lot of other specific recommendations by the review panel that I think Mr. Obama stopped short of adequately addressing. I&rsquo;d recommend reading the <a href="http://www.nytimes.com/interactive/2014/01/17/us/nsa-changes-graphic.html">NYTimes</a> piece &ndash; it does a great job of breaking down his response to each of the recommendations.</p>
 ]]></content>
   </entry>
   
@@ -63,9 +87,6 @@
     <content type="html"><![CDATA[<p>Today was our last day here in San Francisco. Tomorrow morning, we&rsquo;re getting on a shuttle down to Palo Alto/Mountain View and the GooglePlex!</p>
 
 <p>This morning, we met with Ann Winblad, of Hummer Winblad Venture Partners. (Ann&rsquo;s VC firm was one of the early funders of Brad&rsquo;s startup, NetPerceptions). Ann is an incredibly engaging speaker, and she gave us a great intro to the world of venture capital, and a lot of description of where she thinks the world of commercial software development is going.</p>
-
-<!--more-->
-
 
 <p>One of Ann&rsquo;s main points is that software development is no longer a task where an isolated startup or other company will write a product from the ground up. Instead, software development comes down to connecting existing components together, leveraging existing corpora of data or databases of prepackaged software components (e.g. Maven).</p>
 
@@ -90,9 +111,6 @@
 
 <p>This morning, we met with a company called Bizo. Bizo does B2B (business to business) Internet marketing. Their customers are other businesses who want to run advertising campaigns on the Internet. They had some interesting perspectives on their business, which is in many ways bigger than a startup but still a pretty small company, but the most interesting part of the conversation for me was in the interview and career advice they had near the end of our visit.</p>
 
-<!--more-->
-
-
 <p>They emphasized that when they interview people, one of their primary concerns (beyond a minimum technical bar) is that the candidate matches their culture. I heard over and over, &ldquo;is this [candidate] someone I would enjoy working with?&rdquo; I couldn&rsquo;t help but draw comparisons to the way that Matt at VMWare talked about hiring. He was much more concerned about technical ability and problem solving; he said several times that he wanted to work with &ldquo;the smartest people in the world.&rdquo;</p>
 
 <p>Brad (our professor) had an interesting perspective on that: the people at Bizo are doing interesting things, but they aren&rsquo;t doing revolutionary or innovative computer science. Their just &ldquo;pushing bits around&rdquo;. On the other hand, VMWare is obviously tackling some very difficult engineering problems. The ablilty of the candidate is much more important than their &ldquo;culture fit.&rdquo;</p>
@@ -115,9 +133,6 @@
 <p>The first visit was to the Pinterest headquarters in the Soma neighborhood of San Francisco. (If you aren&rsquo;t familiar with Pinterest, it&rsquo;s a &ldquo;social pinning&rdquo; site where users can pin pictures, links, and notes about stuff that interests them on virtual bulletin boards.)</p>
 
 <p>We had a chance to meet with John and Dan, two data scientists at Pinterest. As data scientists, they&rsquo;re responsible for analyzing metrics related to the service that Pinterest provides, and making sure that issues are resolved. On a technical basis, that means using things like the R programming language, the Hadoop database engine, and various other analytic tools to measure metrics from user engagement to site reliability to demographic information.</p>
-
-<!--more-->
-
 
 <p>One of the most interesting challenges that Pinterest is facing is how to expand its user base from their historically predominate demographic: American women. They want to change the gender balance to include more men, as well as expanding to more international users.</p>
 
@@ -143,9 +158,6 @@
 <p>The first group we visited this morning was the PR firm MSL Group, where we met with Bryan Scanlon. Before going in to this meeting, I knew almost nothing about what a public relations firm really does (besides, you know, public relations).</p>
 
 <p>MSL Group is in the top five global PR firms, so they obviously have some pretty big clients. The biggest client that Bryan works with is PayPal, so it was pretty interesting to get a glimpse into what he and the rest of the MSL Group staff do.</p>
-
-<!--more-->
-
 
 <p>One of the things that stood out to me is when someone asked Bryan what kinds of stuff he does when he starts a new campaign or signs a new client. He said that coming up with cool ideas and PR stunts is relatively easy. The hard part is figuring out what effect a particular action has on the customer. Does it help their brand? Does it (accidentally) portray them in a poor light? Does it do anything at all?</p>
 
@@ -176,9 +188,6 @@
 
 <p>They have the Envisioning Center divided up into a few different sections, representing the future workspace (i.e. the corporate experience) and a model domestic home.</p>
 
-<!--more-->
-
-
 <p>Probably the most significant change that Microsoft thinks the future will hold is in the proliferation of interoperable touch screens. Our tour guide demoed several scenarios where content on a phone or tablet could be &ldquo;thrown&rdquo; onto a big screen to display to a group or simply to see in a bigger format.</p>
 
 <p>Another cool example was a series of networked digital picture frames scattered throughout the model home. The guide could do things like select a series of photos from a family album and have them rotated throughout the home.</p>
@@ -205,9 +214,6 @@
 <p>We met with a guy named Sam. Sam works in the legal operations department, although he isn&rsquo;t a lawyer. We spent about an hour talking with him about what he does, what Amazon does, and how Amazon is looking at the future of its various businesses.</p>
 
 <p>I had a chance to ask Sam about the areas that Amazon is most concerned about in near future (~5 years), and he gave me three issues (with a bonus fourth).</p>
-
-<!-- more -->
-
 
 <h4>Privacy and Data Security</h4>
 
@@ -437,7 +443,7 @@ Not supported (yet):
     <link href="http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key/"/>
     <updated>2013-06-08T10:59:00-07:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key</id>
-    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#x3a;&#x69;&#64;&#x69;&#x73;&#97;&#97;&#x63;&#x64;&#111;&#x6e;&#116;&#x6a;&#101;&#108;&#x69;&#110;&#100;&#x65;&#x6c;&#x6c;&#46;&#99;&#x6f;&#109;">&#105;&#x40;&#105;&#x73;&#97;&#x61;&#99;&#x64;&#x6f;&#x6e;&#116;&#x6a;&#x65;&#x6c;&#105;&#110;&#100;&#x65;&#x6c;&#108;&#x2e;&#99;&#111;&#109;</a></a>.</p>
+    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#58;&#x69;&#64;&#105;&#x73;&#x61;&#97;&#x63;&#100;&#111;&#110;&#116;&#106;&#x65;&#x6c;&#x69;&#x6e;&#x64;&#101;&#108;&#x6c;&#x2e;&#x63;&#111;&#109;">&#x69;&#x40;&#105;&#x73;&#97;&#97;&#x63;&#x64;&#111;&#110;&#116;&#x6a;&#101;&#x6c;&#105;&#110;&#100;&#101;&#108;&#x6c;&#x2e;&#99;&#111;&#109;</a></a>.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
