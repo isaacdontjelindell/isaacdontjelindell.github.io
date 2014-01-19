@@ -12,7 +12,7 @@ First of all, Google is obviously doing some really cool stuff. My computer and 
 
 Google also has the deep pockets and corporate will to perform groundbreaking research. Their self-driving car is incredible, and Google Glass is pretty revolutionary (whatever you think about the benefit to humanity).
 
-On the other hand, I found myself fairly uncomfortable a many points during our visit yesterday. One of the people we met was Craig Cornelius, a former Luther alumna who works on the internationalization team (i18n) at Google. One of the first things Craig said when he starting talking about Google was, "how much do you pay Google to use our services?" It's a fairly innocuous question, but he clearly expected us to answer that we paid nothing. 
+On the other hand, I found myself fairly uncomfortable at many points during our visit yesterday. One of the people we met was Craig Cornelius, a former Luther alumna who works on the internationalization team (i18n) at Google. One of the first things Craig said when he starting talking about Google was, "how much do you pay Google to use our services?" It's a fairly innocuous question, but he clearly expected us to answer that we paid nothing. 
 
 When someone said that we paid with our personal information, he sort of acknowledged the point, but then immediately moved on to convincing us that because we don't "cut Google a check," we really aren't paying anything. That unwillingness to acknowledge Google's core money-maker (our data) leaves a bad taste in my mouth. 
 
