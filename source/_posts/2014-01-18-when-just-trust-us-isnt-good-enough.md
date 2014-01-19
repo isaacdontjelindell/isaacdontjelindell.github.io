@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "When \"Just Trust Us Isn't\" Good Enough"
+title: "When \"Just Trust Us\" Isn't Good Enough"
 date: 2014-01-18 17:16:29 -0800
 comments: true
 categories: net-neutrality
