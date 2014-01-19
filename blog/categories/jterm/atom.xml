@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Jterm | Technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/jterm/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-18T17:53:48-08:00</updated>
+  <updated>2014-01-18T17:55:19-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -74,7 +74,7 @@
 
 <p>They emphasized that when they interview people, one of their primary concerns (beyond a minimum technical bar) is that the candidate matches their culture. I heard over and over, &ldquo;is this [candidate] someone I would enjoy working with?&rdquo; I couldn&rsquo;t help but draw comparisons to the way that Matt at VMWare talked about hiring. He was much more concerned about technical ability and problem solving; he said several times that he wanted to work with &ldquo;the smartest people in the world.&rdquo;</p>
 
-<p>Brad (our professor) had an interesting perspective on that: the people at Bizo are doing interesting things, but they aren&rsquo;t doing revolutionary or innovative computer science. Their just &ldquo;pushing bits around&rdquo;. On the other hand, VMWare is obviously tackling some very difficult engineering problems. The ablilty of the candidate is much more important than their &ldquo;culture fit.&rdquo;</p>
+<p>Brad (our professor) had an interesting perspective on that: the people at Bizo are doing interesting things, but they aren&rsquo;t doing revolutionary or innovative computer science. They&rsquo;re just &ldquo;pushing bits around&rdquo;. On the other hand, VMWare is obviously tackling some very difficult engineering problems. The ablilty of the candidate is much more important than their &ldquo;culture fit.&rdquo;</p>
 
 <p>We met with some developers from a company called MoovWeb for lunch. MoovWeb&rsquo;s service is one that allows businesses that have an existing complicated desktop web site to convert it to a mobile-friendly version with much less effort than simply re-writing the whole site. It was fun to get a chance to have some informal and in-depth technical discussions with the developers. They&rsquo;re doing some cool stuff with dynamically regenerating sites using a server side architecture (written in Go, no less!)</p>
 
