@@ -18,7 +18,13 @@ bash < <(curl -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-instal
 
 Then you'll need to restart your terminal.
 
-In may case, I wanted the latest version of Go (1.2 as of this writing), so I ran:
+Since the install script seems to assume you're using bash, if you're using a shell other than bash, you'll need to add this to your config file (e.g .zshrc, etc):
+
+```
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+```
+
+In my case, I wanted the latest version of Go (1.2 as of this writing), so I ran:
 
 ```
 gvm install go1.2
