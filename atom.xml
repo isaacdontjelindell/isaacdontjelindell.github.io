@@ -4,7 +4,7 @@
   <title><![CDATA[Technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-18T17:55:19-08:00</updated>
+  <updated>2014-01-18T21:34:44-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[When "Just Trust Us Isn't" Good Enough]]></title>
+    <title type="html"><![CDATA[When "Just Trust Us" Isn't Good Enough]]></title>
     <link href="http://blog.isaacdontjelindell.com/blog/2014/01/18/when-just-trust-us-isnt-good-enough/"/>
     <updated>2014-01-18T17:16:29-08:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2014/01/18/when-just-trust-us-isnt-good-enough</id>
@@ -512,7 +512,7 @@ Not supported (yet):
     <link href="http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key/"/>
     <updated>2013-06-08T10:59:00-07:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key</id>
-    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#105;&#x40;&#105;&#115;&#97;&#x61;&#99;&#x64;&#x6f;&#x6e;&#x74;&#106;&#x65;&#108;&#105;&#x6e;&#x64;&#x65;&#108;&#108;&#46;&#99;&#x6f;&#109;">&#105;&#64;&#x69;&#115;&#97;&#97;&#x63;&#100;&#x6f;&#110;&#116;&#106;&#x65;&#108;&#x69;&#110;&#100;&#x65;&#108;&#x6c;&#x2e;&#99;&#111;&#x6d;</a></a>.</p>
+    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#58;&#105;&#x40;&#x69;&#115;&#x61;&#x61;&#99;&#100;&#x6f;&#110;&#116;&#106;&#x65;&#108;&#x69;&#x6e;&#x64;&#x65;&#108;&#108;&#x2e;&#x63;&#111;&#x6d;">&#x69;&#64;&#105;&#x73;&#x61;&#97;&#x63;&#100;&#x6f;&#x6e;&#116;&#106;&#101;&#108;&#x69;&#110;&#100;&#x65;&#108;&#x6c;&#x2e;&#x63;&#111;&#109;</a></a>.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
