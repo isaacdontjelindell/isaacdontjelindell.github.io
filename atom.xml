@@ -4,7 +4,7 @@
   <title><![CDATA[Technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-18T10:45:06-08:00</updated>
+  <updated>2014-01-18T17:05:12-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -24,7 +24,7 @@
 
 <p>Google also has the deep pockets and corporate will to perform groundbreaking research. Their self-driving car is incredible, and Google Glass is pretty revolutionary (whatever you think about the benefit to humanity).</p>
 
-<p>On the other hand, I found myself fairly uncomfortable a many points during our visit yesterday. One of the people we met was Craig Cornelius, a former Luther alumna who works on the internationalization team (i18n) at Google. One of the first things Craig said when he starting talking about Google was, &ldquo;how much do you pay Google to use our services?&rdquo; It&rsquo;s a fairly innocuous question, but he clearly expected us to answer that we paid nothing.</p>
+<p>On the other hand, I found myself fairly uncomfortable at many points during our visit yesterday. One of the people we met was Craig Cornelius, a former Luther alumna who works on the internationalization team (i18n) at Google. One of the first things Craig said when he starting talking about Google was, &ldquo;how much do you pay Google to use our services?&rdquo; It&rsquo;s a fairly innocuous question, but he clearly expected us to answer that we paid nothing.</p>
 
 <p>When someone said that we paid with our personal information, he sort of acknowledged the point, but then immediately moved on to convincing us that because we don&rsquo;t &ldquo;cut Google a check,&rdquo; we really aren&rsquo;t paying anything. That unwillingness to acknowledge Google&rsquo;s core money-maker (our data) leaves a bad taste in my mouth.</p>
 
@@ -443,7 +443,7 @@ Not supported (yet):
     <link href="http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key/"/>
     <updated>2013-06-08T10:59:00-07:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key</id>
-    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#109;&#97;&#x69;&#x6c;&#x74;&#111;&#58;&#x69;&#64;&#x69;&#x73;&#x61;&#97;&#x63;&#x64;&#111;&#x6e;&#116;&#106;&#101;&#x6c;&#x69;&#110;&#x64;&#101;&#x6c;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#x69;&#x40;&#105;&#115;&#97;&#97;&#x63;&#x64;&#111;&#110;&#x74;&#106;&#101;&#108;&#x69;&#110;&#x64;&#101;&#108;&#x6c;&#x2e;&#99;&#x6f;&#109;</a></a>.</p>
+    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#x69;&#x40;&#105;&#115;&#97;&#97;&#x63;&#x64;&#x6f;&#110;&#116;&#106;&#x65;&#108;&#105;&#x6e;&#100;&#101;&#108;&#x6c;&#x2e;&#99;&#111;&#109;">&#x69;&#64;&#x69;&#x73;&#x61;&#97;&#99;&#100;&#x6f;&#110;&#116;&#106;&#101;&#108;&#x69;&#110;&#100;&#x65;&#108;&#x6c;&#x2e;&#99;&#111;&#109;</a></a>.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
