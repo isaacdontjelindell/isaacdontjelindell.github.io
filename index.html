@@ -9,7 +9,7 @@
   <meta name="author" content="Isaac Dontje Lindell">
 
   
-  <meta name="description" content="I originally wrote this paper for an interdisciplinary Ethics and Technology course, during the fall of 2013. Net neutrality is a term frequently &hellip;">
+  <meta name="description" content="I&rsquo;m starting a project in Go. The first step was obviously to install Go, but after a half hour wrestling with an old and broken installation &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -79,6 +79,64 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang/">Using GVM (Go Version Manager) to Install Golang</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-01-19T10:17:59-08:00" pubdate data-updated="true">Jan 19<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;m starting a project in Go. The first step was obviously to install Go, but after a half hour wrestling with an old and broken installation and a out-of-date PPA, I got fed up.</p>
+
+<p>Then I found <a href="https://github.com/moovweb/gvm">gvm</a>. If you&rsquo;re familiar with rvm for Ruby, I think you&rsquo;re going to like gvm.</p>
+
+<p>Setup on Ubuntu is pretty simple:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>bash &lt; &lt;(curl -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-installer)</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then you&rsquo;ll need to restart your terminal.</p>
+
+<p>In may case, I wanted the latest version of Go (1.2 as of this writing), so I ran:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>gvm install go1.2
+</span><span class='line'>gvm use go1.2 --default</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The <code>--default</code> flag sets that particular version of go as the default when you open a new terminal session.</p>
+
+<p>It was fun to see that gvm was written by the devs at MoovWeb. When I visited them a few days ago I was interested that they were using Go for their backend &ndash; clearly they&rsquo;re pretty invested!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -530,66 +588,6 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/07/visiting-amazon/">Visiting Amazon</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-01-07T13:21:00-08:00" pubdate data-updated="true">Jan 7<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today was the first full day of my January-term trip (Entrepreneurship in Silicon Valley) to the West Coast. We&rsquo;re in Seattle, and this morning we visited Amazon&rsquo;s headquarters.</p>
-
-<p>We met with a guy named Sam. Sam works in the legal operations department, although he isn&rsquo;t a lawyer. We spent about an hour talking with him about what he does, what Amazon does, and how Amazon is looking at the future of its various businesses.</p>
-
-<p>I had a chance to ask Sam about the areas that Amazon is most concerned about in near future (~5 years), and he gave me three issues (with a bonus fourth).</p>
-
-<h4>Privacy and Data Security</h4>
-
-<p>The first was issues of privacy and data security, which is really interesting to me. Amazon obviously has a massive database of user information, including the usual contact and financial information that any e-retailer has, but they also have a vast corpus of information about people&rsquo;s preferences: what they&rsquo;ve bought, when they like to buy, what kinds of stuff they would probably consider buying the future.</p>
-
-<p>Sam used the example of the recent Target breach to show how quickly a brand can be damaged by a security issue. Amazon has yet to have a large-scale data leak, but that doesn&rsquo;t mean that people aren&rsquo;t trying.</p>
-
-<h4>Antitrust</h4>
-
-<p>A second major concern that Amazon has about the future is a big one (hehe): antitrust. As Amazon gets bigger and bigger, and has its fingers in more and more pies, they are concerned that federal regulators will start to take notice. Sam didn&rsquo;t elaborate on what Amazon is doing to mitigate the risk, but it doesn&rsquo;t take much looking to find lots of examples of the results of past antitrust investigations (from the <a href="http://en.wikipedia.org/wiki/Breakup_of_the_Bell_System">break-up of Ma Bell in 1982</a>, to the web-browser choice settlements that Microsoft has faced in Europe, or the FTC-blocked <a href="http://en.wikipedia.org/wiki/Attempted_purchase_of_T-Mobile_USA_by_AT%26T">attempted acquisition of T-Mobile by AT&amp;T</a>).</p>
-
-<h4>Brand Image</h4>
-
-<p>Sam also mentioned that brand image was a major concern of Amazon. They specifically don&rsquo;t want to &ldquo;be seen as another Walmart.&rdquo; This really isn&rsquo;t unique, although he tied it strongly to the issue of data security and privacy: a major breach would be devastating to their brand image.</p>
-
-<h4>Labor Relations</h4>
-
-<p>The bonus fourth issue is labor relations. The reason I&rsquo;m saying it&rsquo;s a bonus issue is that Sam mentioned this issue as one he personally thinks will be an area of concern. (In other words, Jeff Bezos probably wouldn&rsquo;t mention it). Basically, Amazon has gotten, and continues to get, a lot of flak over its labor practices.</p>
-
-<p>The aspect of this that I know most about is the concerns over how Amazon treats its hourly employees in its fulfillment warehouses. Called &ldquo;pickers&rdquo;, these employees have to work very long hours in very physically demanding conditions, often for low pay. <a href="http://www.motherjones.com/politics/2012/02/mac-mcclelland-free-online-shipping-warehouses-labor">This</a> article is an interesting description of some of these issues.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -605,6 +603,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang/">Using GVM (Go Version Manager) to Install Golang</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2014/01/18/when-just-trust-us-isnt-good-enough/">When &#8220;Just Trust Us&#8221; Isn&#8217;t Good Enough</a>
       </li>
     
@@ -618,10 +620,6 @@
     
       <li class="post">
         <a href="/blog/2014/01/17/heres-your-morning-dose-of-absurdity/">Here&#8217;s Your Morning Dose of Absurdity</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/16/hummer-winblad-and-phillip-alvelda/">The Future of Software: Venture Capitalists vs. Scientists</a>
       </li>
     
   </ul>
