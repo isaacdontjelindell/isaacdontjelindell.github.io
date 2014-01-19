@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Programming | Technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-19T10:29:04-08:00</updated>
+  <updated>2014-01-19T11:04:29-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -30,7 +30,13 @@ bash &lt; &lt;(curl -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-
 
 <p>Then you&rsquo;ll need to restart your terminal.</p>
 
-<p>In may case, I wanted the latest version of Go (1.2 as of this writing), so I ran:</p>
+<p>Since the install script seems to assume you&rsquo;re using bash, if you&rsquo;re using a shell other than bash, you&rsquo;ll need to add this to your config file (e.g .zshrc, etc):</p>
+
+<p><code>
+[[ -s "$HOME/.gvm/scripts/gvm" ]] &amp;&amp; source "$HOME/.gvm/scripts/gvm"
+</code></p>
+
+<p>In my case, I wanted the latest version of Go (1.2 as of this writing), so I ran:</p>
 
 <p><code>
 gvm install go1.2
