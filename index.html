@@ -8,9 +8,10 @@
   <title>Technicall</title>
   <meta name="author" content="Isaac Dontje Lindell">
 
+   
+  <meta name="description" content="">
   
-  <meta name="description" content="I&rsquo;m starting a project in Go. The first step was obviously to install Go, but after a half hour wrestling with an old and broken installation &hellip;">
-  
+  <meta name="keywords" content="">
 
   <!-- http://t.co/dKP3o1e -->
   <meta name="HandheldFriendly" content="True">
@@ -20,13 +21,15 @@
   
   <link rel="canonical" href="http://blog.isaacdontjelindell.com">
   <link href="/favicon.png" rel="icon">
+  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/stylesheets/custom.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Technicall" type="application/atom+xml">
-  <script src="/javascripts/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/bootstrap-collapse.js"></script>
+  <script src="/js/modernizr-2.0.js"></script>
+  <script src="/js/octopress.js" type="text/javascript"></script>
+  <script src="/js/application.js"></script>
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -48,48 +51,70 @@
 </head>
 
 <body   >
-  <header role="banner"><hgroup>
-  <h1><a href="/">Technicall</a></h1>
-  
-    <h2>Blogging about technology, government, and life, for fun and (no) profit.</h2>
-  
-</hgroup>
-
-</header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
-  
-</ul>
-  
-<form action="http://google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="q" value="site:blog.isaacdontjelindell.com" />
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
-  
-<ul class="main-navigation">
-  <li><a href="http://www.isaacdontjelindell.com">Home</a></li>
-  <li><a href="/">Blog</a></li>
-  <li><a href="/blog/archives">Archives</a></li>
+  <div class="navbar navbar-inverse navbar-static-top">
+  	<div class="navbar-inner">
+  	  <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+          <span class="fui-menu-24"></span>
+        </a>
+  	  	<div class="nav-collapse collapse navbar-responsive-collapse" style="height:0;">
+  	      <ul class="nav">
+    
+        <li ><a href="http://www.isaacdontjelindell.com">Home</a></li>
+    
+        <li ><a href="/">Blog</a></li>
+    
+        <li ><a href="/blog/archives">Archives</a></li>
+    
 </ul>
 
-</nav>
-  <div id="main">
-    <div id="content">
-      <div class="blog-index">
+<ul class="nav pull-right">
+    
+    <li><a href="http://github.com/isaacdontjelindell" title="Github Profile"><i class="icon-github-sign social-navbar"></i></a></li>
+    
+    
+    
+    <li><a href="http://linkedin.com/in/isaacdontjelindell" title="Linkedin Profile"><i class="icon-linkedin-sign social-navbar"></i></a></li>
+    
+    
+    
+    
+    
+
+    
+</ul>
+
+  	    </div>
+  	  </div>
+  	</div>
+  </div>
+  <div class="container" id="main">
+      <div class="row-fluid">
+        <div id="content">
+          <div class="jumbotron">
+  <div class="container">
+    
+      Technicall
+    
+    <h3 class="tagline">
+      
+        Blogging about technology, government, and life, for fun and (no) profit.
+      
+    </h3>
+  </div>
+</div>
+
+
+<div class="blog-index">
   
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang/">Using GVM (Go Version Manager) to Install Golang</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -101,14 +126,21 @@
   
 
 
-<time datetime="2014-01-19T10:17:59-08:00" pubdate data-updated="true">Jan 19<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I&rsquo;m starting a project in Go. The first step was obviously to install Go, but after a half hour wrestling with an old and broken installation and a out-of-date PPA, I got fed up.</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-19T10:17:59-08:00" pubdate data-updated="true">Jan 19<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/programming/"><span class="badge">programming</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang/">Using GVM (Go version manager) To Install Golang</a></h1>
+      <p>I&rsquo;m starting a project in Go. The first step was obviously to install Go, but after a half hour wrestling with an old and broken installation and a out-of-date PPA, I got fed up.</p>
 
 <p>Then I found <a href="https://github.com/moovweb/gvm">gvm</a>. If you&rsquo;re familiar with rvm for Ruby, I think you&rsquo;re going to like gvm.</p>
 
@@ -137,23 +169,26 @@
 <p>The <code>--default</code> flag sets that particular version of go as the default when you open a new terminal session.</p>
 
 <p>It was fun to see that gvm was written by the devs at <a href="http://www.moovweb.com/">MoovWeb</a>. When I visited them a few days ago I was interested that they were using Go for their backend &ndash; clearly they&rsquo;re pretty invested!</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/18/when-just-trust-us-isnt-good-enough/">When &#8220;Just Trust Us&#8221; Isn&#8217;t Good Enough</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -165,38 +200,44 @@
   
 
 
-<time datetime="2014-01-18T17:16:29-08:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><em>I originally wrote this paper for an interdisciplinary Ethics and Technology course, during the fall of 2013.</em></p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-18T17:16:29-08:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/net-neutrality/"><span class="badge">net-neutrality</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/18/when-just-trust-us-isnt-good-enough/">When &#8220;Just Trust Us&#8221; Isn&#8217;t Good Enough</a></h1>
+      <p><em>I originally wrote this paper for an interdisciplinary Ethics and Technology course, during the fall of 2013.</em></p>
 
 <p>Net neutrality is a term frequently encountered when discussing access to information on the Internet. While it is generally intended to refer to a guarantee of certain qualities of access to the global Internet, it has been specifically defined in many different ways. I intend to ethically analyze the various aspects of net neutrality, including several common definitions. I will contend that a definition of net neutrality that allows for network traffic prioritization and shaping is ethical, but only for the purposes of managing and improving the network. Non-net neutrality is unethical if it is done for financial gain (e.g. “pay extra for the premium sites package”), if it is not transparent to the end user, or is done to discriminate against a particular class of users.</p>
 
-</div>
-  
-  
-    <footer>
-      <a rel="full-article" href="/blog/2014/01/18/when-just-trust-us-isnt-good-enough/">Read on &rarr;</a>
-    </footer>
-  
+
+      
+       <a href="/blog/2014/01/18/when-just-trust-us-isnt-good-enough/">Read on &rarr;</a> 
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/18/assimilation-into-the-googleplex/">Assimilation Into the GooglePlex</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -208,14 +249,21 @@
   
 
 
-<time datetime="2014-01-18T09:26:02-08:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Yesterday, we visited Google headquarters, in Mountain View, California. It was certainly an impressive experience, but I was left with some mixed feelings about the experience.</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-18T09:26:02-08:00" pubdate data-updated="true">Jan 18<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/jterm/"><span class="badge">jterm</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/18/assimilation-into-the-googleplex/">Assimilation into the GooglePlex</a></h1>
+      <p>Yesterday, we visited Google headquarters, in Mountain View, California. It was certainly an impressive experience, but I was left with some mixed feelings about the experience.</p>
 
 <p>First of all, Google is obviously doing some really cool stuff. My computer and Internet experience would be very different without Google. I use Gmail, Calendar, Maps, Search, Chrome, and other products every day. Large parts of the Internet are financed by Google-served ads.</p>
 
@@ -234,23 +282,26 @@
 <p>Two of the technical talks we heard, however, were fantastic. Craig Cornelius gave a lecture on the challenges of internationalization of Google products. It didn&rsquo;t sound that interesting at first, but his team has to solve so incredibly difficult projects. How you design projects so that they work equally well with left-to-right AND right-to-left languages? How do you handle keyboard input in a language that has thousands of &ldquo;letters&rdquo;? How do you deal with one of the hundreds of ways a single date and time can be expressed?</p>
 
 <p>We also had a chance to hear a little bit from Brian, an engineer on Google&rsquo;s self-driving car team (unfortunately, I didn&rsquo;t manage to catch his last name). We didn&rsquo;t have a chance to get as technical as I would have liked due to time issues, but he had a great introduction to the technology behind the &ldquo;perception suite&rdquo; that&rsquo;s used to make the car &ldquo;see&rdquo;, and some interesting scenarios for possible societal changes that might be caused by the introduction of autonomous cars.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/17/thats-not-how-you-constitution/">That&#8217;s Not How You Constitution, Mr. Obama</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -262,14 +313,21 @@
   
 
 
-<time datetime="2014-01-17T18:09:00-08:00" pubdate data-updated="true">Jan 17<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>President Obama gave a speech today. The topic was the NSA; he was addressing the recommendations given by the panel of experts he appointed to review the actions taken by the spy agency.</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-17T18:09:00-08:00" pubdate data-updated="true">Jan 17<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/nsa/"><span class="badge">NSA</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/17/thats-not-how-you-constitution/">That&#8217;s not how you Constitution, Mr. Obama</a></h1>
+      <p>President Obama gave a speech today. The topic was the NSA; he was addressing the recommendations given by the panel of experts he appointed to review the actions taken by the spy agency.</p>
 
 <p>I&rsquo;m fairly disappointed in Obama&rsquo;s response. He failed to address or paid only lip service to some pretty important issues.</p>
 
@@ -291,23 +349,26 @@
 <p>The other disappointment for me was President Obama&rsquo;s failure to implement the requirement that a judge sign off before a <a href="http://en.wikipedia.org/wiki/National_security_letter">national security letter</a> (NSL) can be served. He did change the policy on the mandatory gag orders that stop recipients of NSLs from discussing them or even mentioning that they&rsquo;d received one. The gag orders will now have a fixed expiration date. It&rsquo;s not perfect: he didn&rsquo;t say how long that fixed expiration time period will be (if it&rsquo;s longer than a few months, what&rsquo;s the point?) and the weasel words, &ldquo;in most cases,&rdquo; make me uncomfortable.</p>
 
 <p>There are a lot of other specific recommendations by the review panel that I think Mr. Obama stopped short of adequately addressing. I&rsquo;d recommend reading the <a href="http://www.nytimes.com/interactive/2014/01/17/us/nsa-changes-graphic.html">NYTimes</a> piece &ndash; it does a great job of breaking down his response to each of the recommendations.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/17/heres-your-morning-dose-of-absurdity/">Here&#8217;s Your Morning Dose of Absurdity</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -319,31 +380,41 @@
   
 
 
-<time datetime="2014-01-17T09:29:00-08:00" pubdate data-updated="true">Jan 17<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-17T09:29:00-08:00" pubdate data-updated="true">Jan 17<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/nsa/"><span class="badge">NSA</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/17/heres-your-morning-dose-of-absurdity/">Here&#8217;s Your Morning Dose of Absurdity</a></h1>
+      <p>There&rsquo;s really no other word for this than absurd. Bruce Schneier was asked to <a href="https://www.schneier.com/blog/archives/2014/01/today_i_briefed.html">brief six members of Congress yesterday</a> on the NSA&rsquo;s activities&hellip;because the NSA won&rsquo;t tell Congress what they&rsquo;re doing. WTF?</p>
 
+      
+      
+    </div>
+  </div>
 
-  <div class="entry-content"><p>There&rsquo;s really no other word for this than absurd. Bruce Schneier was asked to <a href="https://www.schneier.com/blog/archives/2014/01/today_i_briefed.html">brief six members of Congress yesterday</a> on the NSA&rsquo;s activities&hellip;because the NSA won&rsquo;t tell Congress what they&rsquo;re doing. WTF?</p>
-</div>
-  
-  
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/16/hummer-winblad-and-phillip-alvelda/">The Future of Software: Venture Capitalists vs. Scientists</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -355,14 +426,21 @@
   
 
 
-<time datetime="2014-01-16T23:01:00-08:00" pubdate data-updated="true">Jan 16<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today was our last day here in San Francisco. Tomorrow morning, we&rsquo;re getting on a shuttle down to Palo Alto/Mountain View and the GooglePlex!</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-16T23:01:00-08:00" pubdate data-updated="true">Jan 16<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/jterm/"><span class="badge">jterm</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/16/hummer-winblad-and-phillip-alvelda/">The Future of Software: Venture Capitalists vs. Scientists</a></h1>
+      <p>Today was our last day here in San Francisco. Tomorrow morning, we&rsquo;re getting on a shuttle down to Palo Alto/Mountain View and the GooglePlex!</p>
 
 <p>This morning, we met with Ann Winblad, of Hummer Winblad Venture Partners. (Ann&rsquo;s VC firm was one of the early funders of Brad&rsquo;s startup, NetPerceptions). Ann is an incredibly engaging speaker, and she gave us a great intro to the world of venture capital, and a lot of description of where she thinks the world of commercial software development is going.</p>
 
@@ -377,23 +455,26 @@
 <p>Phillip&rsquo;s point is that while the type of development Ann favored is a quick way to make money, it&rsquo;s not a good way to truly innovate. Things that require scientific research, or hardware investment, or both, are risky and expensive. While they often have a chance at a huge payoff, venture capitalists are very hesitant to fund such ventures. (Phillip gave the specific example of Elon Musk&rsquo;s now-abandoned hyperloop idea: it had the potential to be extremely innovative, but was expensive and very risky).</p>
 
 <p>I&rsquo;m also taking what Phillip said about VCs (and Ann Winblad specifically) with a small grain of salt: he mentioned that he&rsquo;s asked Hummer Winblad for investment for three different ventures, and has been turned down all three times&hellip;</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/15/bizo/">Bizo, MoovWeb, and Sara Ellefsen</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -405,14 +486,21 @@
   
 
 
-<time datetime="2014-01-15T19:47:00-08:00" pubdate data-updated="true">Jan 15<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today was a really long day! We visited three groups, all doing very different things.</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-15T19:47:00-08:00" pubdate data-updated="true">Jan 15<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/jterm/"><span class="badge">jterm</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/15/bizo/">Bizo, MoovWeb, and Sara Ellefsen</a></h1>
+      <p>Today was a really long day! We visited three groups, all doing very different things.</p>
 
 <p>This morning, we met with a company called Bizo. Bizo does B2B (business to business) Internet marketing. Their customers are other businesses who want to run advertising campaigns on the Internet. They had some interesting perspectives on their business, which is in many ways bigger than a startup but still a pretty small company, but the most interesting part of the conversation for me was in the interview and career advice they had near the end of our visit.</p>
 
@@ -425,23 +513,26 @@
 <p>The last meeting of the day was with a personal finance planner, Sara Ellefsen. Sara works with mostly individuals and families to help them plan and manage their investment portfolio. As a broke college student, it&rsquo;s difficult for me to think about investing and financial planning, but she had some really good advice for how to approach saving and investing, and it was intriguing to see her approach to risk management.</p>
 
 <p>Sara is certainly a (successful) entrepreneur, but of a very different philosophy than many of the startups we&rsquo;ve been meeting with. She doesn&rsquo;t have any employees, and isn&rsquo;t particularly interested in expanding. She likes what she does, and doesn&rsquo;t have grand visions of making millions and starting a global empire.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/14/pinterest-and-strava/">Pinterest and Strava</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -453,14 +544,21 @@
   
 
 
-<time datetime="2014-01-14T20:59:00-08:00" pubdate data-updated="true">Jan 14<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today, day 9, we visited Pinterest and Strava.</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-14T20:59:00-08:00" pubdate data-updated="true">Jan 14<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/jterm/"><span class="badge">jterm</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/14/pinterest-and-strava/">Pinterest and Strava</a></h1>
+      <p>Today, day 9, we visited Pinterest and Strava.</p>
 
 <p>The first visit was to the Pinterest headquarters in the Soma neighborhood of San Francisco. (If you aren&rsquo;t familiar with Pinterest, it&rsquo;s a &ldquo;social pinning&rdquo; site where users can pin pictures, links, and notes about stuff that interests them on virtual bulletin boards.)</p>
 
@@ -477,23 +575,26 @@
 <p>We met with Michael, a co-founder, just-stepped-down CEO, and current president of the board of directors. Michael is an excellent speaker (he used to be a professor&hellip;go figure!) and is clearly passionate about entrepreneurship. He gave a lot of advice, but the piece that resonated most with me was what he said about going to business school (I&rsquo;m sort of applying this to grad school too). He said that if you&rsquo;re interested in starting a company, whatever you do, don&rsquo;t get an MBA. If you do, you&rsquo;ll gain skills and a piece of paper that will make you very desireable to many established companies. More importantly, it will most likely put you in the significant debt. When you graduate with the degree and the debt, going to work for a company that will pay you a safe salary will seem very appealing (and you <em>will</em> be recruited heavily).</p>
 
 <p>Instead, you should just start your company as soon as possible. You can get advice from other people on most aspects, and avoiding the debt incurred in going to business school (or grad school) allows you a lot more options in pursuing your own company.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/13/sqiggle-and-mslgroup/">Sqwiggle and MSLGroup</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -505,14 +606,21 @@
   
 
 
-<time datetime="2014-01-13T19:52:00-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today, we had our first meetings here in sunny San Francisco. (Seriously, after not seeing the sun for the entire five days in Seattle, it feels like a religious experience to go out for a bike ride in shorts!)</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-13T19:52:00-08:00" pubdate data-updated="true">Jan 13<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/jterm/"><span class="badge">jterm</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/13/sqiggle-and-mslgroup/">Sqwiggle and MSLGroup</a></h1>
+      <p>Today, we had our first meetings here in sunny San Francisco. (Seriously, after not seeing the sun for the entire five days in Seattle, it feels like a religious experience to go out for a bike ride in shorts!)</p>
 
 <p>The first group we visited this morning was the PR firm MSL Group, where we met with Bryan Scanlon. Before going in to this meeting, I knew almost nothing about what a public relations firm really does (besides, you know, public relations).</p>
 
@@ -533,23 +641,26 @@
 <p>It was pretty cool to talk with someone as knowledgeable and passionate as Eric. He gave us a lot of really interesting information on the process of forming a tech startup, getting funding from various sources (including AngelList, something I&rsquo;d read about but didn&rsquo;t know a whole lot about), and how (not) to hire early employees.</p>
 
 <p>Apparently, Sqwiggle might be open to hiring interns&hellip;I might just send them an email!</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
+    <hr>
+    
   
   
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/01/08/today-i-saw-the-future/">Today, I Saw the Future</a></h1>
-    
-    
-      <p class="meta">
-        
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
 
 
 
@@ -561,14 +672,21 @@
   
 
 
-<time datetime="2014-01-08T21:36:00-08:00" pubdate data-updated="true">Jan 8<span>th</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Today, we spent most of the day on the Microsoft campus in Redmond, Washington (a short bus ride from downtown Seattle).</p>
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-08T21:36:00-08:00" pubdate data-updated="true">Jan 8<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/jterm/"><span class="badge">jterm</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/08/today-i-saw-the-future/">Today, I saw the future</a></h1>
+      <p>Today, we spent most of the day on the Microsoft campus in Redmond, Washington (a short bus ride from downtown Seattle).</p>
 
 <p>The first part of the day was a tour of the Microsoft Envisioning Center. The Envisioning Center is a place where Microsoft can demo technologies that they think will become common in the next 5 &ndash; 10 years.</p>
 
@@ -587,94 +705,40 @@
 <p>We also got to meet with Neal Leslie, on the Windows Phone Product Evangelization team. His job is to convince developers to write a version of their apps for Windows Phone. Part of the problem that Windows Phone has faced in competing with Apple&rsquo;s iPhone and phones powered by Google&rsquo;s Android is that in a lot of cases, people choose their platform based on the available apps. Neal said that until recently, for example, the increasingly popular Instagram was only available on iOS and Android. He was directly involved in the process of convincing Facebook (who own Instagram) to write a version of Instagram for Windows Phone.</p>
 
 <p>The third and final person we met with at Microsoft was Dave Maltz. Dave Maltz works in Microsoft Research as an engineer working to develop networking technologies for the next generation of data centers. He gave us a ton of information on how networks are organized and built at a large scale, as well as regaling us with some great stories about mishaps he&rsquo;s witnessed.</p>
-</div>
-  
-  
+
+      
+      
+    </div>
+  </div>
+
 
 
     </article>
+    
   
   <div class="pagination">
     
-      <a class="prev" href="/blog/page/2/">&larr; Older</a>
+    <a class="prev" href="/blog/page/2/">&larr; Older</a>
     
-    <a href="/blog/archives">Blog Archives</a>
+
     
   </div>
 </div>
-<aside class="sidebar">
-  
-    <section>
-  <h1>Recent Posts</h1>
-  <ul id="recent_posts">
-    
-      <li class="post">
-        <a href="/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang/">Using GVM (Go Version Manager) to Install Golang</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/18/when-just-trust-us-isnt-good-enough/">When &#8220;Just Trust Us&#8221; Isn&#8217;t Good Enough</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/18/assimilation-into-the-googleplex/">Assimilation Into the GooglePlex</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/17/thats-not-how-you-constitution/">That&#8217;s Not How You Constitution, Mr. Obama</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2014/01/17/heres-your-morning-dose-of-absurdity/">Here&#8217;s Your Morning Dose of Absurdity</a>
-      </li>
-    
-  </ul>
-</section>
-
-<section>
-  <h1>GitHub Repos</h1>
-  <ul id="gh_repos">
-    <li class="loading">Status updating&#8230;</li>
-  </ul>
-  
-  <a href="https://github.com/isaacdontjelindell">@isaacdontjelindell</a> on GitHub
-  
-  <script type="text/javascript">
-    $(document).ready(function(){
-        if (!window.jXHR){
-            var jxhr = document.createElement('script');
-            jxhr.type = 'text/javascript';
-            jxhr.src = '/javascripts/libs/jXHR.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(jxhr, s);
-        }
-
-        github.showRepos({
-            user: 'isaacdontjelindell',
-            count: 0,
-            skip_forks: false,
-            target: '#gh_repos'
-        });
-    });
-  </script>
-  <script src="/javascripts/github.js" type="text/javascript"> </script>
-</section>
 
 
-
-
-
-  
-</aside>
-
-    </div>
-  </div>
-  <footer role="contentinfo"><p>
+        </div>
+      </div>
+      <div class="row-fluid">
+        <footer class="footer-page" role="contentinfo">
+          <p>
   Copyright &copy; 2014 - Isaac Dontje Lindell -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> - Theme by <a href="http://alexgaribay.com">Alex Garibay</a>
 </p>
 
-</footer>
+
+        </footer>
+      </div>
+  </div>
   
 
 <script type="text/javascript">
@@ -685,7 +749,7 @@
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
     }());
 </script>
@@ -701,7 +765,7 @@
       var twitterWidgets = document.createElement('script');
       twitterWidgets.type = 'text/javascript';
       twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
       document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
     })();
   </script>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Programming | Technicall]]></title>
+  <title><![CDATA[Category: programming | Technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-19T11:04:29-08:00</updated>
+  <updated>2014-01-19T22:17:59-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Using GVM (Go Version Manager) to Install Golang]]></title>
+    <title type="html"><![CDATA[Using GVM (Go version manager) To Install Golang]]></title>
     <link href="http://blog.isaacdontjelindell.com/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang/"/>
     <updated>2014-01-19T10:17:59-08:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang</id>

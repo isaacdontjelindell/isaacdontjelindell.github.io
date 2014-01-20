@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Jterm | Technicall]]></title>
+  <title><![CDATA[Category: jterm | Technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/jterm/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-19T11:04:29-08:00</updated>
+  <updated>2014-01-19T22:17:59-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Assimilation Into the GooglePlex]]></title>
+    <title type="html"><![CDATA[Assimilation into the GooglePlex]]></title>
     <link href="http://blog.isaacdontjelindell.com/blog/2014/01/18/assimilation-into-the-googleplex/"/>
     <updated>2014-01-18T09:26:02-08:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2014/01/18/assimilation-into-the-googleplex</id>
