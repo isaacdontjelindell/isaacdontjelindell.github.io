@@ -59,6 +59,16 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # page_asides:
 
 
+navigation:
+  - text: Home
+    url: http://www.isaacdontjelindell.com
+  - text: Blog
+    url: /
+  - text: Archives
+    url: /blog/archives
+
+
+
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
@@ -99,3 +109,5 @@ google_analytics_tracking_id: UA-41820500-2
 
 # Facebook Like
 facebook_like: false
+
+linkedin_user: isaacdontjelindell
