@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-20T17:40:42-08:00</updated>
+  <updated>2014-01-20T17:57:33-08:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -24,9 +24,9 @@
 
 <p>Setup on Ubuntu is pretty simple:</p>
 
-<p><code>
-bash &lt; &lt;(curl -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-installer)
-</code></p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>bash &amp;lt; &amp;lt;<span class="o">(</span>curl -s &lt;a <span class="nv">href</span><span class="o">=</span><span class="s2">&quot;https://raw.github.com/moovweb/gvm/master/binscripts/gvm-installer&quot;</span>&gt;https://raw.github.com/moovweb/gvm/master/binscripts/gvm-installer&lt;/a&gt;<span class="o">)</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Then you&rsquo;ll need to restart your terminal.</p>
 
@@ -38,10 +38,11 @@ bash &lt; &lt;(curl -s https://raw.github.com/moovweb/gvm/master/binscripts/gvm-
 
 <p>In my case, I wanted the latest version of Go (1.2 as of this writing), so I ran:</p>
 
-<p><code>
-gvm install go1.2
-gvm use go1.2 --default
-</code></p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>gvm install go1.2
+</span><span class='line'><span class="nv">$ </span>gvm use go1.2 &amp;mdash;default
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>The <code>--default</code> flag sets that particular version of go as the default when you open a new terminal session.</p>
 
