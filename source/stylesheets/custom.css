@@ -1,3 +1,7 @@
 article blockquote {
     font-size: 1em;
 }
+
+code pre {
+    font-size: 1em !important;
+}
