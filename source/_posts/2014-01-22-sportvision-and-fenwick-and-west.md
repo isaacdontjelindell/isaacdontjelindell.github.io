@@ -3,7 +3,7 @@ layout: post
 title: "Sportvision and Fenwick &amp; West"
 date: 2014-01-22 18:22:43 -0800
 comments: true
-categories: jterm, patent-trolls
+categories: jterm patent-trolls
 ---
 
 We've been on a train now for about nine hours, so you can probably imagine that I'm about ready to be done. We should be arriving in Santa Monica in a few hours.
