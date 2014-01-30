@@ -22,7 +22,7 @@ From The New York Times:
 A senior official said the advocates would be called on only in cases presenting novel and important privacy law issues. The panel would apparently not have the authority to monitor the court’s caseload and independently decide when a case warranted its presence.
 {% endblockquote %}
 
-So basically, the "advocate panel" doesn't have any power whatsoever. How can the right to counsel be respected if no one has the power to argue against the government? Who decides if a case "[presents] novel and important privacy law issues"? If the FISA court or the prosecution (i.e. the government/NSA) is responsible for make such a determination, that's hardly better than not having an advocate panel at all!
+So basically, the "advocate panel" doesn't have any power whatsoever. How can the right to counsel be respected if no one has the power to argue against the government? Who decides if a case "[presents] novel and important privacy law issues"? If the FISA court or the prosecution (i.e. the government/NSA) is responsible for making such a determination, that's hardly better than not having an advocate panel at all!
 
 ### Secrecy of National Security Letters
 
