@@ -4,7 +4,7 @@
   <title><![CDATA[Category: funny | technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/funny/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-27T10:11:21-08:00</updated>
+  <updated>2014-01-30T12:57:21-06:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[My Favorite StackOverflow Question Of All Time]]></title>
     <link href="http://blog.isaacdontjelindell.com/blog/2013/08/01/my-favorite-stackoverflow-question-of-all-time/"/>
-    <updated>2013-08-01T10:22:00-07:00</updated>
+    <updated>2013-08-01T10:22:00-05:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2013/08/01/my-favorite-stackoverflow-question-of-all-time</id>
     <content type="html"><![CDATA[<p>The best SO question I&rsquo;ve ever seen: <a href="http://stackoverflow.com/questions/4456438/how-can-i-pass-the-string-null-through-wsdl-soap-from-as3-to-coldfusion-web?rq=1">How can I pass the string “Null” through WSDL (SOAP) from AS3 to ColdFusion web service without receiving a “missing parameter error”?</a>.</p>
 

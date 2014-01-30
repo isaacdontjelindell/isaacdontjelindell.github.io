@@ -4,7 +4,7 @@
   <title><![CDATA[Category: productivity | technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/productivity/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-27T10:11:21-08:00</updated>
+  <updated>2014-01-30T12:57:21-06:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[IdeaVim: Pycharm, Vim-Style]]></title>
     <link href="http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style/"/>
-    <updated>2013-06-18T11:34:00-07:00</updated>
+    <updated>2013-06-18T11:34:00-05:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2013/06/18/jetbrains-pycharm-vim-style</id>
     <content type="html"><![CDATA[<p>I&rsquo;ve been using Vi (actually Vim) now for about a year as my primary code-editor. I really don&rsquo;t like using a mouse when I can help
 it, so the Vi keyboard-centric philosophy has been a pretty nice change to my workflow. I&rsquo;m by no means a Vi expert, but for most

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: linux | technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/linux/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-27T10:11:21-08:00</updated>
+  <updated>2014-01-30T12:57:21-06:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Multiple Ubuntu Unity Sessions]]></title>
     <link href="http://blog.isaacdontjelindell.com/blog/2013/06/08/ubuntu-multiple-sessions/"/>
-    <updated>2013-06-08T09:20:41-07:00</updated>
+    <updated>2013-06-08T11:20:41-05:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2013/06/08/ubuntu-multiple-sessions</id>
     <content type="html"><![CDATA[<p>I often find myself working on several programming projects at once. This generally involves one or more Chrome windows, multiple Vi terminal windows, and miscellaneous text editors, Gimp windows, Evernote pages, etc, all arranged over multiple workspaces (usually the same ones so I can find stuff quickly!).</p>
 

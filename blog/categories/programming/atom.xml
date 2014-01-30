@@ -4,7 +4,7 @@
   <title><![CDATA[Category: programming | technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/blog/categories/programming/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-27T10:11:21-08:00</updated>
+  <updated>2014-01-30T12:57:21-06:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Using GVM (Go version manager) To Install Golang]]></title>
     <link href="http://blog.isaacdontjelindell.com/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang/"/>
-    <updated>2014-01-19T10:17:59-08:00</updated>
+    <updated>2014-01-19T12:17:59-06:00</updated>
     <id>http://blog.isaacdontjelindell.com/blog/2014/01/19/using-gvm-go-version-manager-to-install-golang</id>
     <content type="html"><![CDATA[<p>I&rsquo;m starting a project in Go. The first step was obviously to install Go, but after a half hour wrestling with an old and broken installation and a out-of-date PPA, I got fed up.</p>
 
