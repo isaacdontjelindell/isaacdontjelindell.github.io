@@ -4,7 +4,7 @@
   <title><![CDATA[technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-01-30T12:57:21-06:00</updated>
+  <updated>2014-01-30T15:33:25-06:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Final Reflections For "Entrepreneurship in Silicon Valley"]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2014/01/30/reflections-for-entrepreneurship-in-silicon-valley/"/>
+    <updated>2014-01-30T14:29:44-06:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2014/01/30/reflections-for-entrepreneurship-in-silicon-valley</id>
+    <content type="html"><![CDATA[<pre><code>These are some of the final reflections I took away from my "Entrepreneurship In Silicon Valley" January term course in 2014.
+
+The most common thing that I think we heard was that in entrepreneurship (especially entrepreneurship in technology), ideas don't mean anything. It's easy to have good ideas. Everyone has good ideas for a business. The hard part, the part that differentiates a successful startup, is the execution of the idea. It's worthless to keep your ideas secret, or to make people sign non-disclosure agreements. Even if somebody “steals” your idea, chances are, they won't succeed in making it a successful business. In fact, someone has already probably had your idea, but wouldn’t or couldn’t execute it. That’s what distinguishes an entrepreneur.
+
+I learned a great deal about the financial side of founding a startup. As a tech person, I've never paid particularly close attention to the financial side, but obviously that process is just as critical for success. We heard some interesting opinions about the system of venture capitalists in Silicon Valley. The part that surprised me was that some people are very wary of accepting venture capital. I had assumed that accepting funding was a no-brainer; why would I turn down money that might mean the difference between the success and the failure of my company? However, several people we met with suggested that in many cases, the right move is to turn down the capital. Usually a funding round from a venture capitalist means allowing the VC firm some control over the company. This might be in the form of a controlling interest of shares, or a seat on the board of directors. Any time you're forced to give up some control, you incur the risk of conflicts. Perhaps I have a different vision for the future of my product, one that may not generate quite as much revenue, or might take longer to realize. Of course, there's always the chance that I could be wrong about the way I want to do things.
+
+The most interesting non-technical meeting we had was with Ann Winblad, of Hummer Winblad Venture Partners. She has very strong opinions on the way that startups should run, and the direction that technology is going. Most interesting, however, was her approach to the risk in funding technology startups, especially in comparison to inventors and scientists like Phillip Alvelda. Ann spent a lot of time discussing what startups should be doing in terms of building a product; she strongly believes that most future development will be based on building blocks of other software. One of her examples was the growth of the Maven software repository. Maven allows developers to include libraries and functionalities that have been written by other people in very simple and robust way. Of course, not reinventing the wheel is a very common theme in computer science. However, Ann really takes it a step further by arguing that a startup really shouldn't be writing that much code, but should rather be connected existing software together.
+
+I didn't realize it at the time, but later, when we met Phillip Alvelda, Ann Winblad's approach to startups really started to make sense. She's a venture capitalist: her goal is to make money. To do that, she needs to invest in low-risk ventures that have a high potential payoff. The way to minimize risk in development is by using components that have already been developed and are known to work well.  Designing software that builds on already existing software components takes less time and programmer skill (which in turn means lower risk) and consequently has a better chance of being successful and repaying the investment. However, this approach isn't a good way to truly innovate. As Phillip pointed out, true innovation is building something that's completely new. It's generally pretty difficult to do something completely new without building large parts of it from the ground up. This is much riskier. There are many more places for things to go wrong. Phillip used the example of Elon Musk's proposed hyperloop transportation system. The hyperloop isn't software, but the analogy applies just as well to software development. Under Ann's philosophy, a project like the hyperloop  wouldn't get funded. It depends on innovation and theoretical research, instead of just leveraging existing technology. If everyone thinks like Ann does, there won't be much real improvement in technology!
+
+One of things we heard from PerCognate really stuck with me: the so-called “four hats of entrepreneurship”. This was fascinating, because it really made me start thinking about the stuff I'm good at, the stuff I'm not so good at, and what kinds of people I want to work with. Their four hats are the builder or hacker, the designer, the visionary, and the closer or hustler. I've realized that I'm certainly a builder. I like to write code, and make technology work. I'm not very good at sales or marketing, so I'm definitely not a closer. I'm not a very good designer, so I wouldn't be a good choice to design the user experience. I might be somewhat of a visionary, but I generally prefer to let others do that sort of planning. If I ever decide to start a company, I'm definitely going to be much more aware of the balance of skills, and whether all of the important roles are filled. 
+
+Learning about the way that entrepreneurs pick a market and position themselves was also really interesting. For example, PerCognate's e-discovery technology could easily be applied to many areas. However, they're running out of “runway”: they aren't yet making any revenue, and are running out of money to keep working. What this means is that they've made a very conscious decision to target their work toward lawyers and the evidence discovery process. They've decided to do that one thing really well, because lawyers will be able to pay them well. If they spent time using their technology to try and solve other problems, that would distract them. They would end up as a company that was okay at doing several things, rather than really good at doing one thing. Capsule also discovered this. Their product could be applicable to many different use cases, but they picked one market (weddings) and went after it directly. 
+
+This is something that intrigued me, because I could easily see myself falling in to the trap of trying to do everything. If I had invented Capsule, I'm not sure I would have been able to let go of the original vision of catering to any event or trip, and just focus on one market. In fact, I'm not sure the idea would have even occurred to me. Talking to the founders of PerCognate and to Cyrus from Capsule really made me question the assumptions I had about how to market a product. If you'd asked me before this trip, I probably would have said that the best way to market something like Capsule would be to target as many use cases as possible, rather than focusing on the core money-maker.
+
+This trip really drove home the point that in the business world, connections are incredibly important. I've never liked the phrase “it's not what you know, but who you know”, but it a lot of ways it really does apply. Obviously, most of the people we met were very intelligent and capable in their respective fields, but over and over again, it's the connections they had and people they knew that got them to where they are. That means that it's worth cultivating those connections. I collected a number of business cards as well as making some online connections, and I strongly believe that some of those connections that I gathered on this trip will help me some time in the future. 
+
+I definitely had an interest in entrepreneurship and startups before going on this trip, but after visiting so many different companies doing so many different things, my interest in working for or even founding a company has really been solidified. I think this might be the most important thing I took from the course: I want to work in a place where everyone is able to contribute meaningfully, where I can constantly be learning new technologies and ideas, where I can have true ownership of work I'm doing, and where I'm truly passionate about the products I'm developing. I think that place is a startup. Seeing the passion that people like Eric Bieller (of Sqwiggle) have for the work they're doing really spoke to me. I'd rather not get stuck in an environment where I don't have a choice about the tools I use. I don't want to work in a place where I have to dress up in order to fit in. 
+
+While hearing about all the “failures” that many entrepreneurs faced was definitely interesting and often inspiring, the idea of starting my own company is still terrifying. It would certainly be incredibly rewarding, but how do I balance the risk of needing to have a job to support myself with that thrill? I think at this point in my life, I wouldn't be comfortable founding a company as a full time venture. I'd much rather work as an employee at a small but still somewhat established startup. Perhaps that'll give me the experience I need to actually take the leap of starting my own!
+</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Fullscreen, I Really Wanted To Hate You...]]></title>
@@ -656,59 +686,6 @@ Not supported (yet):
 <p>As a workaround, I created another user account so that I can start another session. It&rsquo;s kind of a hack, because the second user obviously doesn&rsquo;t have access to all the customizations, files, etc. Since a large portion of my work is at the terminal anyway, I can just run <code>sudo su &lt;main_user_account&gt;</code> and impersonate my main user account from the second one.</p>
 
 <p>As far as other customizations, it&rsquo;ll probably take a little to get them all there (wobbly windows, anyone?) but I think it&rsquo;s worth it. I&rsquo;m already pretty attached to being able to <code>&lt;ctrl&gt;&lt;alt&gt;&lt;f8&gt;</code> and instantly switch to a completely different project.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[OpenPGP Key]]></title>
-    <link href="http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key/"/>
-    <updated>2013-06-08T10:59:00-05:00</updated>
-    <id>http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key</id>
-    <content type="html"><![CDATA[<p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#x6f;&#x3a;&#105;&#x40;&#105;&#115;&#97;&#97;&#x63;&#100;&#x6f;&#110;&#x74;&#106;&#x65;&#108;&#x69;&#110;&#100;&#x65;&#x6c;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#105;&#64;&#x69;&#x73;&#x61;&#97;&#99;&#100;&#x6f;&#110;&#116;&#x6a;&#x65;&#x6c;&#105;&#110;&#x64;&#x65;&#108;&#108;&#x2e;&#99;&#x6f;&#x6d;</a></a>.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>-----BEGIN PGP PUBLIC KEY BLOCK-----
-</span><span class='line'>Version: OpenPGP.js v.1.20130228
-</span><span class='line'>Comment: http://openpgpjs.org
-</span><span class='line'>
-</span><span class='line'>xsBNBFG8ib4BCACS1m8aLM+aQlpo/HHEmHWXEzR3Pb9O0acAT7qR3C0+JutA
-</span><span class='line'>1VTrK0onZc7I5LdmxWIJ4pXYUm/PR6lZOI4srhTkjBmHEzIOia5hpAqE18ML
-</span><span class='line'>nR+3coYFqFE+ALBIO3VpmmUuOGB6V18sqvUrX/JdsvMXwbu+IkAAPnkgos5M
-</span><span class='line'>qmBA62nOZwDU2PA/NRdYZJcWqurBvs7lzdkfV4im3lh1b5cZnhym9NcJFs5a
-</span><span class='line'>J/lyLjhQd+OYKp9EZlq4ETfua/EcQRh1AKPo+dx+q0jG/wpMkzjrAwKo6cC9
-</span><span class='line'>cMx3nXsJfhnsChnnU3LzLFjNCINITLfgbK9cGR+mYXDxI6QKQntX+MAfABEB
-</span><span class='line'>AAHNL0lzYWFjIERvbnRqZSBMaW5kZWxsIDxpQGlzYWFjZG9udGplbGluZGVs
-</span><span class='line'>bC5jb20+wsBcBBABAgAQBQJRvInDCRCtoDOA/EbfYQAAzjMH/0fZPo82U3+k
-</span><span class='line'>wS+UCt3wTNlOUYxULzGewjg6A6bx8dJpGPJG7fL7Vw+ltpOnvkWfUdlcgvl4
-</span><span class='line'>S5hGdxluLhQ5X7coP/Hsy9Py8vGF3DYh1fDUPrJOt0tjR7ksjo56DSVagqqr
-</span><span class='line'>7+3wd49kvXjBH7djKj319SZByR+99AopWvqxyrViBSZCSbO33JDBZkFqdewi
-</span><span class='line'>XWx4gGOQ7e97VhCAx46k6oA7xZOcTSFhpa8MuuuxCe05VtyYdlmbiU/zogWZ
-</span><span class='line'>/cw1L23x7As0OaQ3dMIujnXUK2viuoOsfasQHtXc3HVsz32drSCXxSi8o+eU
-</span><span class='line'>sEdyphgKp+WcWTsbKkXqoITWckCmbiM=
-</span><span class='line'>=QEOg
-</span><span class='line'>-----END PGP PUBLIC KEY BLOCK-----</span></code></pre></td></tr></table></div></figure>
-
-
-
 ]]></content>
   </entry>
   
