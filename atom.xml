@@ -4,7 +4,7 @@
   <title><![CDATA[technicall]]></title>
   <link href="http://blog.isaacdontjelindell.com/atom.xml" rel="self"/>
   <link href="http://blog.isaacdontjelindell.com/"/>
-  <updated>2014-02-06T12:57:50-06:00</updated>
+  <updated>2014-03-21T10:50:48-05:00</updated>
   <id>http://blog.isaacdontjelindell.com/</id>
   <author>
     <name><![CDATA[Isaac Dontje Lindell]]></name>
@@ -12,6 +12,22 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Python Snippet To Check A Palindrome]]></title>
+    <link href="http://blog.isaacdontjelindell.com/blog/2014/03/21/python-snippet-to-check-a-palindrome/"/>
+    <updated>2014-03-21T10:49:02-05:00</updated>
+    <id>http://blog.isaacdontjelindell.com/blog/2014/03/21/python-snippet-to-check-a-palindrome</id>
+    <content type="html"><![CDATA[<p>Found a little Python snippet to determine if a string is a palindrome.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">is_palindrome</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">s</span> <span class="o">==</span> <span class="n">s</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Nifty.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Final Reflections For "Entrepreneurship in Silicon Valley"]]></title>
@@ -661,30 +677,6 @@ Not supported (yet):
 
 
 <p>Hopefully you now know how to send and recieve encrypted emails. This obviously won&rsquo;t help with other Internet communications, i.e. via Facebook, Twitter, etc. You&rsquo;ll just have to avoid using those platforms for communications of a&hellip;sensitive nature :).</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Multiple Ubuntu Unity Sessions]]></title>
-    <link href="http://blog.isaacdontjelindell.com/blog/2013/06/08/ubuntu-multiple-sessions/"/>
-    <updated>2013-06-08T11:20:41-05:00</updated>
-    <id>http://blog.isaacdontjelindell.com/blog/2013/06/08/ubuntu-multiple-sessions</id>
-    <content type="html"><![CDATA[<p>I often find myself working on several programming projects at once. This generally involves one or more Chrome windows, multiple Vi terminal windows, and miscellaneous text editors, Gimp windows, Evernote pages, etc, all arranged over multiple workspaces (usually the same ones so I can find stuff quickly!).</p>
-
-<p>I&rsquo;ve often wished I could have multiple X sessions running at the same time, completely independent of each other. Then I could have one project open and spread out, while being able to quickly switch to a different project, with its unique set of windows and layout options.</p>
-
-<p>I just discovered that if multiple users are logged in to an Ubuntu machine, it&rsquo;ll put each user&rsquo;s X session in a separate TTY (virtual terminal). The first 6, TTY1 &ndash; TTY6, are console sessions. The first user to log into a graphical session in Ubuntu is on TTY7. If you switch users (Gear menu &ndash;> Switch Users) and log in to a different user account on the computer, it will start that session on TTY8.</p>
-
-<p>Note: TTY&rsquo;s can be accessed by typing <code>&lt;ctrl&gt;&lt;alt&gt;&lt;tty_num %F%&gt;</code>. So to access TTY8, for example, I would type <code>&lt;ctrl&gt;&lt;alt&gt;&lt;F8&gt;</code>.</p>
-
-<p>I had originally hoped that I could start a separate X session but still log in as my main user account. Unfortuantely, this doesn&rsquo;t seem to be possible with Unity &ndash; I can start another X session and log in, and even manually start Unity, but every time I open programs, they appear in the first Unity session, on TTY7.</p>
-
-<!-- more -->
-
-
-<p>As a workaround, I created another user account so that I can start another session. It&rsquo;s kind of a hack, because the second user obviously doesn&rsquo;t have access to all the customizations, files, etc. Since a large portion of my work is at the terminal anyway, I can just run <code>sudo su &lt;main_user_account&gt;</code> and impersonate my main user account from the second one.</p>
-
-<p>As far as other customizations, it&rsquo;ll probably take a little to get them all there (wobbly windows, anyone?) but I think it&rsquo;s worth it. I&rsquo;m already pretty attached to being able to <code>&lt;ctrl&gt;&lt;alt&gt;&lt;f8&gt;</code> and instantly switch to a completely different project.</p>
 ]]></content>
   </entry>
   

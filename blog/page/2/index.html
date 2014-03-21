@@ -126,6 +126,66 @@
   
 
 
+<i class="icon-calendar-empty"></i> <time datetime="2014-01-16T23:01:00-06:00" pubdate data-updated="true">Jan 16<span>th</span>, 2014</time></h5>
+          <div class="row-fluid">
+          
+          </div>
+          
+          <div class="row-fluid">
+          
+          <a href="/blog/categories/jterm/"><span class="badge">jterm</span></a>
+          
+          </div>
+          
+    </div>
+    <div class="span10 post-container">
+      <h1 class="link"><a href="/blog/2014/01/16/hummer-winblad-and-phillip-alvelda/">The Future of Software: Venture Capitalists vs. Scientists</a></h1>
+      <p>Today was our last day here in San Francisco. Tomorrow morning, we&rsquo;re getting on a shuttle down to Palo Alto/Mountain View and the GooglePlex!</p>
+
+<p>This morning, we met with Ann Winblad, of Hummer Winblad Venture Partners. (Ann&rsquo;s VC firm was one of the early funders of Brad&rsquo;s startup, NetPerceptions). Ann is an incredibly engaging speaker, and she gave us a great intro to the world of venture capital, and a lot of description of where she thinks the world of commercial software development is going.</p>
+
+<p>One of Ann&rsquo;s main points is that software development is no longer a task where an isolated startup or other company will write a product from the ground up. Instead, software development comes down to connecting existing components together, leveraging existing corpora of data or databases of prepackaged software components (e.g. Maven).</p>
+
+<p>I found myself thinking about this a lot, and I&rsquo;m still not sure if I totally agree. It&rsquo;s very true that it&rsquo;s easy to build cool pieces of software simply by leveraging other existing software. For example, I&rsquo;m working on a web application that&rsquo;s a prettier, friendlier front end to the Calibre ebook management software. I&rsquo;m (obviously) using the interface exposed by Calibre to get book metadata. I&rsquo;m using Bootstrap to lay out the interface (a designer I am not!). I&rsquo;m using a framework called Angular.js to handle displaying data and updating it easily.</p>
+
+<p>On the other hand, doing this still requires a fair amount of &ldquo;glue&rdquo; code. I have to design a user flow. I have to make sure the right data is shown at the right time. Even with Bootstrap, I have to make at least some effort to make sure it looks decent.</p>
+
+<p>Another perspective on this came from Phillip Alvelda, a serial entrepreneur and scientist, whom we also met with today. Phillip&rsquo;s counterpoint when I mentioned what Ann had talked about was that I should take anything said by a venture capitalist with a grain of salt. They aim to find investments that are low risk and have a very high potential payoff. Designing software that builds on already existing software takes less time and programmer skill (i.e. lower risk) and consequently has a better chance of &ldquo;getting big.&rdquo;</p>
+
+<p>Phillip&rsquo;s point is that while the type of development Ann favored is a quick way to make money, it&rsquo;s not a good way to truly innovate. Things that require scientific research, or hardware investment, or both, are risky and expensive. While they often have a chance at a huge payoff, venture capitalists are very hesitant to fund such ventures. (Phillip gave the specific example of Elon Musk&rsquo;s now-abandoned hyperloop idea: it had the potential to be extremely innovative, but was expensive and very risky).</p>
+
+<p>I&rsquo;m also taking what Phillip said about VCs (and Ann Winblad specifically) with a small grain of salt: he mentioned that he&rsquo;s asked Hummer Winblad for investment for three different ventures, and has been turned down all three times&hellip;</p>
+
+      
+      
+    </div>
+  </div>
+
+
+
+    </article>
+    
+    <hr>
+    
+  
+  
+    <article>
+      
+
+  <div class="row-fluid">
+    <div class="span2 post-meta">
+	  <h5 class="date-time">
+
+
+
+
+
+
+
+
+  
+
+
 <i class="icon-calendar-empty"></i> <time datetime="2014-01-15T19:47:00-06:00" pubdate data-updated="true">Jan 15<span>th</span>, 2014</time></h5>
           <div class="row-fluid">
           
@@ -665,61 +725,6 @@ to mention how nice an integrated debugger is! I used <a href="http://www.jetbra
 
       
        <a href="/blog/2013/06/11/encrypt-your-email-with-mailvelope/">Read on &rarr;</a> 
-    </div>
-  </div>
-
-
-
-    </article>
-    
-    <hr>
-    
-  
-  
-    <article>
-      
-
-  <div class="row-fluid">
-    <div class="span2 post-meta">
-	  <h5 class="date-time">
-
-
-
-
-
-
-
-
-  
-
-
-<i class="icon-calendar-empty"></i> <time datetime="2013-06-08T11:20:41-05:00" pubdate data-updated="true">Jun 8<span>th</span>, 2013</time></h5>
-          <div class="row-fluid">
-          
-          </div>
-          
-          <div class="row-fluid">
-          
-          <a href="/blog/categories/linux/"><span class="badge">linux</span></a>
-          
-          </div>
-          
-    </div>
-    <div class="span10 post-container">
-      <h1 class="link"><a href="/blog/2013/06/08/ubuntu-multiple-sessions/">Multiple Ubuntu Unity Sessions</a></h1>
-      <p>I often find myself working on several programming projects at once. This generally involves one or more Chrome windows, multiple Vi terminal windows, and miscellaneous text editors, Gimp windows, Evernote pages, etc, all arranged over multiple workspaces (usually the same ones so I can find stuff quickly!).</p>
-
-<p>I&rsquo;ve often wished I could have multiple X sessions running at the same time, completely independent of each other. Then I could have one project open and spread out, while being able to quickly switch to a different project, with its unique set of windows and layout options.</p>
-
-<p>I just discovered that if multiple users are logged in to an Ubuntu machine, it&rsquo;ll put each user&rsquo;s X session in a separate TTY (virtual terminal). The first 6, TTY1 &ndash; TTY6, are console sessions. The first user to log into a graphical session in Ubuntu is on TTY7. If you switch users (Gear menu &ndash;> Switch Users) and log in to a different user account on the computer, it will start that session on TTY8.</p>
-
-<p>Note: TTY&rsquo;s can be accessed by typing <code>&lt;ctrl&gt;&lt;alt&gt;&lt;tty_num %F%&gt;</code>. So to access TTY8, for example, I would type <code>&lt;ctrl&gt;&lt;alt&gt;&lt;F8&gt;</code>.</p>
-
-<p>I had originally hoped that I could start a separate X session but still log in as my main user account. Unfortuantely, this doesn&rsquo;t seem to be possible with Unity &ndash; I can start another X session and log in, and even manually start Unity, but every time I open programs, they appear in the first Unity session, on TTY7.</p>
-
-
-      
-       <a href="/blog/2013/06/08/ubuntu-multiple-sessions/">Read on &rarr;</a> 
     </div>
   </div>
 

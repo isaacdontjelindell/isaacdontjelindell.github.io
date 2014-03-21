@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>OpenPGP Key - technicall</title>
+  <title>Python Snippet To Check A Palindrome - technicall</title>
   <meta name="author" content="Isaac Dontje Lindell">
 
    
@@ -19,7 +19,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key">
+  <link rel="canonical" href="http://blog.isaacdontjelindell.com/blog/2014/03/21/python-snippet-to-check-a-palindrome">
   <link href="/favicon.png" rel="icon">
   <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -97,7 +97,7 @@
 
   <header>
   <div class="jumbotron">
-    OpenPGP Key
+    Python Snippet to Check a Palindrome
 	<h5>
 
 
@@ -110,56 +110,19 @@
   
 
 
-<i class="icon-calendar-empty"></i> <time datetime="2013-06-08T10:59:00-05:00" pubdate data-updated="true">Jun 8<span>th</span>, 2013</time></h5>
+<i class="icon-calendar-empty"></i> <time datetime="2014-03-21T10:49:02-05:00" pubdate data-updated="true">Mar 21<span>st</span>, 2014</time></h5>
   </div>
 </header>
   <div class="row-fluid">
     <div class="span12">
-      <p>Below is my OpenPGP public key. You can email me at <a href='mailto:i@isaacdontjelindell.com'><a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x69;&#x40;&#x69;&#115;&#97;&#x61;&#99;&#x64;&#111;&#x6e;&#116;&#x6a;&#101;&#x6c;&#105;&#x6e;&#100;&#x65;&#x6c;&#108;&#46;&#99;&#111;&#109;">&#x69;&#x40;&#105;&#x73;&#x61;&#x61;&#99;&#100;&#111;&#x6e;&#116;&#106;&#101;&#108;&#105;&#x6e;&#x64;&#101;&#108;&#x6c;&#x2e;&#x63;&#x6f;&#109;</a></a>.</p>
+      <p>Found a little Python snippet to determine if a string is a palindrome.</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>-----BEGIN PGP PUBLIC KEY BLOCK-----
-</span><span class='line'>Version: OpenPGP.js v.1.20130228
-</span><span class='line'>Comment: http://openpgpjs.org
-</span><span class='line'>
-</span><span class='line'>xsBNBFG8ib4BCACS1m8aLM+aQlpo/HHEmHWXEzR3Pb9O0acAT7qR3C0+JutA
-</span><span class='line'>1VTrK0onZc7I5LdmxWIJ4pXYUm/PR6lZOI4srhTkjBmHEzIOia5hpAqE18ML
-</span><span class='line'>nR+3coYFqFE+ALBIO3VpmmUuOGB6V18sqvUrX/JdsvMXwbu+IkAAPnkgos5M
-</span><span class='line'>qmBA62nOZwDU2PA/NRdYZJcWqurBvs7lzdkfV4im3lh1b5cZnhym9NcJFs5a
-</span><span class='line'>J/lyLjhQd+OYKp9EZlq4ETfua/EcQRh1AKPo+dx+q0jG/wpMkzjrAwKo6cC9
-</span><span class='line'>cMx3nXsJfhnsChnnU3LzLFjNCINITLfgbK9cGR+mYXDxI6QKQntX+MAfABEB
-</span><span class='line'>AAHNL0lzYWFjIERvbnRqZSBMaW5kZWxsIDxpQGlzYWFjZG9udGplbGluZGVs
-</span><span class='line'>bC5jb20+wsBcBBABAgAQBQJRvInDCRCtoDOA/EbfYQAAzjMH/0fZPo82U3+k
-</span><span class='line'>wS+UCt3wTNlOUYxULzGewjg6A6bx8dJpGPJG7fL7Vw+ltpOnvkWfUdlcgvl4
-</span><span class='line'>S5hGdxluLhQ5X7coP/Hsy9Py8vGF3DYh1fDUPrJOt0tjR7ksjo56DSVagqqr
-</span><span class='line'>7+3wd49kvXjBH7djKj319SZByR+99AopWvqxyrViBSZCSbO33JDBZkFqdewi
-</span><span class='line'>XWx4gGOQ7e97VhCAx46k6oA7xZOcTSFhpa8MuuuxCe05VtyYdlmbiU/zogWZ
-</span><span class='line'>/cw1L23x7As0OaQ3dMIujnXUK2viuoOsfasQHtXc3HVsz32drSCXxSi8o+eU
-</span><span class='line'>sEdyphgKp+WcWTsbKkXqoITWckCmbiM=
-</span><span class='line'>=QEOg
-</span><span class='line'>-----END PGP PUBLIC KEY BLOCK-----</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="n">is_palindrome</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">s</span><span class="p">:</span> <span class="n">s</span> <span class="o">==</span> <span class="n">s</span><span class="p">[::</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+</span></code></pre></td></tr></table></div></figure>
 
 
-
+<p>Nifty.</p>
 
     </div>
   </div>
@@ -178,7 +141,7 @@
 
 
 
-  <a href="/blog/categories/security/"><span class="badge">security</span></a>
+  <a href="/blog/categories/development/"><span class="badge">development</span></a>
 
 
 
@@ -208,8 +171,8 @@
       <div class="span12">
         <p class="meta">
           
+            <a class="basic-alignment left" href="/blog/2014/01/29/reflections-for-entrepreneurship-in-silicon-valley/" title="Previous Post: Final Reflections For "Entrepreneurship in Silicon Valley"">&laquo; Final Reflections For "Entrepreneurship in Silicon Valley"</a>
           
-            <a class="basic-alignment right" href="/blog/2013/06/08/ubuntu-multiple-sessions/" title="Next Post: Multiple Ubuntu Unity Sessions">Multiple Ubuntu Unity Sessions &raquo;</a>
           
         </p>
       </div>
@@ -247,8 +210,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key/';
-        var disqus_url = 'http://blog.isaacdontjelindell.com/blog/2013/06/08/openpgp-key/';
+        var disqus_identifier = 'http://blog.isaacdontjelindell.com/blog/2014/03/21/python-snippet-to-check-a-palindrome/';
+        var disqus_url = 'http://blog.isaacdontjelindell.com/blog/2014/03/21/python-snippet-to-check-a-palindrome/';
         var disqus_script = 'embed.js';
       
     (function () {
